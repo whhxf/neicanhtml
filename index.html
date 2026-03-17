@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>外贸内参 · 2026-03-16</title>
+    <title>外贸内参 · 汇总</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
@@ -15,18 +15,10 @@
             --color-ink-light: #5d6d7e;
             --color-accent: #d4a373;
             --color-accent-dark: #b8935f;
-            --color-pain: #c0392b;
-            --color-news: #5d6d7e;
-            --color-workflow: #2c3e50;
-            --color-quote: #f4f1ea;
             --border-light: #e8e4de;
             --border-medium: #d4cfc7;
-            --shadow-subtle: 0 1px 3px rgba(0,0,0,0.04);
-            --shadow-card: 0 2px 8px rgba(0,0,0,0.08);
         }
-
         * { margin: 0; padding: 0; box-sizing: border-box; }
-
         body {
             font-family: 'Noto Serif SC', 'Songti SC', Georgia, serif;
             line-height: 1.75;
@@ -34,21 +26,13 @@
             background: var(--color-bg);
             font-size: 15px;
         }
-
-        .container {
-            max-width: 720px;
-            margin: 0 auto;
-            padding: 60px 24px;
-        }
-
-        /* Header - 报纸头风格 */
+        .container { max-width: 720px; margin: 0 auto; padding: 60px 24px; }
         .masthead {
             text-align: center;
             padding-bottom: 32px;
             border-bottom: 3px double var(--color-ink);
-            margin-bottom: 48px;
+            margin-bottom: 32px;
         }
-
         .masthead::before {
             content: '';
             display: block;
@@ -56,7 +40,6 @@
             background: linear-gradient(90deg, var(--color-ink) 0%, var(--color-accent) 50%, var(--color-ink) 100%);
             margin: -60px -24px 40px -24px;
         }
-
         .publication-title {
             font-family: 'Playfair Display', 'Noto Serif SC', serif;
             font-size: 42px;
@@ -66,355 +49,76 @@
             margin-bottom: 8px;
             text-transform: uppercase;
         }
-
-        .publication-subtitle {
-            font-size: 12px;
-            color: var(--color-ink-light);
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            margin-bottom: 16px;
-        }
-
-        .issue-info {
-            font-size: 13px;
-            color: var(--color-ink-light);
-            border-top: 1px solid var(--border-light);
-            border-bottom: 1px solid var(--border-light);
-            padding: 8px 0;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        /* Mood Section - 大字报风格 */
-        .mood-section {
-            margin-bottom: 56px;
-            background: var(--color-ink);
-            color: white;
-            padding: 40px;
-            position: relative;
-        }
-
-        .mood-section::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 0;
-            bottom: 0;
-            width: 6px;
-            background: #c0392b;
-        }
-
-        .mood-label {
-            font-size: 11px;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            opacity: 0.7;
-            margin-bottom: 16px;
-        }
-
-        .mood-word {
-            font-family: 'Playfair Display', serif;
-            font-size: 64px;
-            font-weight: 700;
-            line-height: 1;
-            margin-bottom: 20px;
-            color: #c0392b;
-        }
-
-        .mood-reason {
-            font-size: 16px;
-            line-height: 1.6;
-            opacity: 0.9;
-            max-width: 90%;
-        }
-
-        .mood-sources {
-            margin-top: 24px;
-            font-size: 12px;
-            opacity: 0.6;
-        }
-
-        .mood-sources a {
-            color: white;
-            text-decoration: none;
-            border-bottom: 1px dotted rgba(255,255,255,0.4);
-            margin-left: 8px;
-        }
-
-        .mood-sources a:hover {
-            border-bottom-color: white;
-        }
-
-        /* Section Headers */
-        .section-header {
-            display: flex;
-            align-items: baseline;
-            margin-bottom: 24px;
-            padding-bottom: 8px;
-            border-bottom: 2px solid var(--color-ink);
-        }
-
-        .section-number {
-            font-family: 'Playfair Display', serif;
-            font-size: 32px;
-            font-weight: 700;
-            color: var(--color-accent);
-            margin-right: 12px;
-            line-height: 1;
-        }
-
-        .section-title {
-            font-size: 18px;
-            font-weight: 600;
-            letter-spacing: 1px;
-        }
-
-        .section-subtitle {
-            font-size: 12px;
-            color: var(--color-ink-light);
-            margin-left: auto;
-            font-weight: 400;
-        }
-
-        /* Cards */
-        .pain-card, .news-card, .workflow-card {
+        .publication-subtitle { font-size: 12px; color: var(--color-ink-light); letter-spacing: 2px; margin-bottom: 8px; }
+        .section-title { font-size: 18px; font-weight: 600; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 2px solid var(--color-ink); }
+        #report-wrap {
             background: var(--color-paper);
-            padding: 24px;
-            margin-bottom: 16px;
-            box-shadow: var(--shadow-subtle);
             border: 1px solid var(--border-light);
-            transition: all 0.2s ease;
+            margin-bottom: 48px;
+            min-height: 400px;
+            overflow: hidden;
         }
-
-        .pain-card:hover, .news-card:hover, .workflow-card:hover {
-            box-shadow: var(--shadow-card);
-            transform: translateY(-1px);
-        }
-
-        .pain-card {
-            border-left: 4px solid var(--color-pain);
-        }
-
-        .card-meta {
-            font-size: 10px;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            color: var(--color-ink-light);
-            margin-bottom: 8px;
-        }
-
-        .pain-title, .news-title, .workflow-title {
-            font-size: 17px;
-            font-weight: 600;
-            margin-bottom: 12px;
-            line-height: 1.4;
-        }
-
-        .pain-title {
-            color: var(--color-pain);
-        }
-
-        .pain-scene {
-            color: var(--color-ink);
+        #report-frame { width: 100%; height: 80vh; min-height: 500px; border: 0; display: block; }
+        .no-report { padding: 40px; text-align: center; color: var(--color-ink-light); }
+        .calendar-section { margin-top: 48px; }
+        .calendar-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             margin-bottom: 16px;
-            line-height: 1.7;
         }
-
-        .pain-product {
-            background: var(--color-bg);
-            padding: 16px;
+        .calendar-title { font-size: 20px; font-weight: 600; }
+        .calendar-nav { display: flex; gap: 8px; }
+        .calendar-nav button {
+            padding: 6px 14px;
+            font-family: inherit;
             font-size: 14px;
-            color: var(--color-ink-light);
-            border-left: 2px solid var(--color-accent);
-        }
-
-        .pain-product strong {
-            color: var(--color-accent-dark);
-            font-weight: 600;
-        }
-
-        /* News Cards */
-        .news-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 12px;
-        }
-
-        .impact-tag {
-            font-size: 10px;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            padding: 4px 8px;
-            border: 1px solid;
-        }
-
-        .tag-cost { color: var(--color-pain); border-color: var(--color-pain); }
-        .tag-time { color: var(--color-news); border-color: var(--color-news); }
-        .tag-opportunity { color: #27ae60; border-color: #27ae60; }
-
-        .news-date {
-            font-size: 11px;
-            color: var(--color-ink-light);
-        }
-
-        .news-title a {
+            cursor: pointer;
+            background: var(--color-paper);
+            border: 1px solid var(--border-medium);
             color: var(--color-ink);
-            text-decoration: none;
-            border-bottom: 1px solid transparent;
-            transition: border-color 0.2s;
+            border-radius: 4px;
         }
-
-        .news-title a:hover {
-            border-bottom-color: var(--color-ink);
-        }
-
-        .news-interpretation {
-            color: var(--color-ink-light);
-            font-size: 14px;
-            line-height: 1.6;
-            margin-top: 8px;
-        }
-
-        /* Workflow */
-        .workflow-card {
-            border-left: 4px solid var(--color-workflow);
-        }
-
-        .workflow-title {
-            color: var(--color-workflow);
-        }
-
-        .workflow-detail {
-            color: var(--color-ink);
-            margin-bottom: 12px;
-            line-height: 1.7;
-        }
-
-        .workflow-tools {
-            font-size: 13px;
-            color: var(--color-ink-light);
-        }
-
-        .tools-label {
-            font-weight: 600;
-            color: var(--color-accent-dark);
-            margin-right: 8px;
-        }
-
-        /* Quote Cards */
-        .quotes-grid {
+        .calendar-nav button:hover { background: var(--color-bg); border-color: var(--color-accent); }
+        .calendar-nav button:disabled { opacity: 0.5; cursor: not-allowed; }
+        .calendar-weekdays {
             display: grid;
-            gap: 20px;
-        }
-
-        .quote-card {
-            background: var(--color-quote);
-            padding: 24px;
-            border: 1px solid var(--border-medium);
-            box-shadow: 2px 2px 0 rgba(0,0,0,0.06);
-            position: relative;
-        }
-
-        .quote-card::before {
-            content: '"';
-            position: absolute;
-            top: 8px;
-            left: 16px;
-            font-family: 'Playfair Display', serif;
-            font-size: 48px;
-            color: var(--color-accent);
-            opacity: 0.4;
-            line-height: 1;
-        }
-
-        .quote-text {
-            font-size: 15px;
-            line-height: 1.8;
-            color: var(--color-ink);
-            position: relative;
-            z-index: 1;
-            margin-left: 8px;
-        }
-
-        .quote-footer {
-            margin-top: 16px;
-            padding-top: 12px;
-            border-top: 1px dashed var(--border-medium);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 4px;
+            margin-bottom: 8px;
             font-size: 12px;
             color: var(--color-ink-light);
+            text-align: center;
         }
-
-        .quote-source-label {
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 6px;
+        }
+        .calendar-day {
+            aspect-ratio: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            border-radius: 6px;
+            background: var(--color-bg);
+            border: 1px solid var(--border-light);
+            color: var(--color-ink-light);
+        }
+        .calendar-day.has-data {
+            cursor: pointer;
+            text-decoration: none;
+            color: var(--color-ink);
             font-weight: 600;
         }
-
-        /* Card Footer */
-        .card-footer {
-            margin-top: 16px;
-            padding-top: 12px;
-            border-top: 1px solid var(--border-light);
-            font-size: 11px;
-            color: var(--color-ink-light);
-            letter-spacing: 0.5px;
-        }
-
-        .source-links a {
-            color: var(--color-ink-light);
-            text-decoration: none;
-            margin-left: 4px;
-            padding: 2px 6px;
-            border: 1px solid var(--border-medium);
-            transition: all 0.2s;
-        }
-
-        .source-links a:hover {
-            background: var(--color-ink);
-            color: white;
-            border-color: var(--color-ink);
-        }
-
-        /* Footer */
-        .page-footer {
-            margin-top: 64px;
-            padding-top: 24px;
-            border-top: 1px solid var(--border-medium);
-            text-align: center;
-            font-size: 12px;
-            color: var(--color-ink-light);
-            letter-spacing: 1px;
-        }
-
-        .page-footer p {
-            margin: 4px 0;
-        }
-
-        /* Print Styles */
-        @media print {
-            body { background: white; }
-            .container { padding: 20px; }
-            .pain-card, .news-card, .workflow-card, .quote-card {
-                box-shadow: none;
-                border: 1px solid #ddd;
-                break-inside: avoid;
-            }
-            .mood-section {
-                break-inside: avoid;
-            }
-        }
-
-        /* Responsive */
+        .calendar-day.has-data:hover { border-color: var(--color-accent); box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        .calendar-day.mood-label { font-size: 10px; margin-top: 2px; }
+        .calendar-day.empty { opacity: 0.5; }
         @media (max-width: 640px) {
             .container { padding: 24px 16px; }
             .publication-title { font-size: 28px; letter-spacing: 4px; }
-            .mood-section { padding: 24px; }
-            .mood-word { font-size: 42px; }
-            .section-header { flex-wrap: wrap; }
-            .section-subtitle { margin-left: 0; margin-top: 4px; width: 100%; }
         }
     </style>
 </head>
@@ -422,172 +126,126 @@
     <div class="container">
         <header class="masthead">
             <div class="publication-title">外贸内参</div>
-            <div class="publication-subtitle">Waimao Intelligence Briefing</div>
-            <div class="issue-info">
-                <span>第 001 期</span>
-                <span>2026-03-16</span>
-                <span>雨果 · 邦阅 · 米课</span>
-            </div>
+            <div class="publication-subtitle">Waimao Intelligence Briefing · 汇总</div>
         </header>
-
-        <section class="mood-section">
-            <div class="mood-label">今日情绪晴雨表</div>
-            <div class="mood-word">焦虑</div>
-            <p class="mood-reason">中东战局致物流成本飙升，海外仓暴雷致货物损失，叠加欧盟税改取消免税额度，卖家面临利润压缩与资金安全风险，整体情绪焦虑。</p>
-            <div class="mood-sources">
-                参考：<span class="source-links"><a href="https://www.cifnews.com/article/183813" target="_blank" rel="noopener">→</a> · <a href="https://www.cifnews.com/article/184099?origin=yggw_pc_ptqb_6" target="_blank" rel="noopener">→</a></span>
-            </div>
+        <section id="report-section">
+            <h2 class="section-title">当日最新内参</h2>
+            <div id="report-wrap"><iframe id="report-frame" src="neican-2026-03-16.html" title="当日内参"></iframe></div>
         </section>
-
-        <section class="module">
-            <header class="section-header">
-                <span class="section-number">01</span>
-                <h2 class="section-title">高频吐槽与痛点雷达</h2>
-                <span class="section-subtitle">产品灵感来源</span>
-            </header>
-            
-        <article class="pain-card">
-            <div class="card-meta">痛点 01</div>
-            <h3 class="pain-title">海外仓暴雷风险</h3>
-            <p class="pain-scene">一周之内五家海外仓关门，仓主变卖客户货物后失联，卖家货物被查封，资金血本无归。</p>
-            <div class="pain-product">
-                <strong>产品思考</strong><br>
-                海外仓信用评估与资金托管平台，实时监控仓库运营状态与货物安全。
+        <section class="calendar-section">
+            <h2 class="section-title">情绪日历</h2>
+            <div class="calendar-header">
+                <span class="calendar-title" id="calendar-title">加载中…</span>
+                <div class="calendar-nav">
+                    <button type="button" id="btn-prev" aria-label="上一月">上一月</button>
+                    <button type="button" id="btn-next" aria-label="下一月">下一月</button>
+                </div>
             </div>
-            <footer class="card-footer">
-                来源：<span class="source-links"><a href="https://www.cifnews.com/article/184099?origin=yggw_pc_ptqb_6" target="_blank" rel="noopener">→</a> · <a href="https://www.cifnews.com/article/184099" target="_blank" rel="noopener">→</a></span>
-            </footer>
-        </article>
-        <article class="pain-card">
-            <div class="card-meta">痛点 02</div>
-            <h3 class="pain-title">AI 工具安全隐忧</h3>
-            <p class="pain-scene">使用 OpenClaw 等 AI 智能体导致 API Key 泄露，店铺后台异常登录，信用卡被盗刷，甚至账号被封。</p>
-            <div class="pain-product">
-                <strong>产品思考</strong><br>
-                跨境专用 AI 安全沙箱，隔离店铺权限，自动监控 API 调用异常与费用消耗。
+            <div class="calendar-weekdays">
+                <span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span>
             </div>
-            <footer class="card-footer">
-                来源：<span class="source-links"><a href="https://www.cifnews.com/article/184088" target="_blank" rel="noopener">→</a> · <a href="https://www.cifnews.com/article/184088?origin=yggw_pc_ptqb_7" target="_blank" rel="noopener">→</a></span>
-            </footer>
-        </article>
-        <article class="pain-card">
-            <div class="card-meta">痛点 03</div>
-            <h3 class="pain-title">合规成本激增</h3>
-            <p class="pain-scene">欧盟取消 150 欧元免税阈值，PPWR 包装法规生效，低客单价直邮模式利润被关税和合规成本吃光。</p>
-            <div class="pain-product">
-                <strong>产品思考</strong><br>
-                全球税务与包装合规自动计算器，一键生成合规标签与税成本预估。
-            </div>
-            <footer class="card-footer">
-                来源：<span class="source-links"><a href="https://www.cifnews.com/article/183648" target="_blank" rel="noopener">→</a> · <a href="https://www.52by.com/article/213183" target="_blank" rel="noopener">→</a></span>
-            </footer>
-        </article>
+            <div class="calendar-grid" id="calendar-grid"></div>
         </section>
-
-        <section class="module">
-            <header class="section-header">
-                <span class="section-number">02</span>
-                <h2 class="section-title">今日行业地震带</h2>
-                <span class="section-subtitle">政策与风向</span>
-            </header>
-            
-        <article class="news-card">
-            <div class="news-header">
-                <span class="impact-tag tag-cost">成本上升</span>
-                <span class="news-date">2026-03-16</span>
-            </div>
-            <h3 class="news-title">
-                <a href="https://www.cifnews.com/article/183648" target="_blank" rel="noopener">欧盟取消 150 欧元免税阈值</a>
-            </h3>
-            <p class="news-interpretation">2026 年 7 月起欧盟对跨境小包征收固定关税，低客单价直邮模式成本增加 15-20%，迫使卖家转向海外仓或提价。</p>
-            <footer class="card-footer">
-                全文：<span class="source-links"><a href="https://www.cifnews.com/article/183648" target="_blank" rel="noopener">→</a> · <a href="https://www.cifnews.com/article/184174" target="_blank" rel="noopener">→</a></span>
-            </footer>
-        </article>
-        <article class="news-card">
-            <div class="news-header">
-                <span class="impact-tag tag-time">时间增加</span>
-                <span class="news-date">2026-03-16</span>
-            </div>
-            <h3 class="news-title">
-                <a href="https://www.cifnews.com/article/184099?origin=yggw_pc_ptqb_6" target="_blank" rel="noopener">洛杉矶多家海外仓集体跑路</a>
-            </h3>
-            <p class="news-interpretation">恶性低价竞争导致海外仓资金链断裂，卖家货物被变卖，需重新寻找仓库导致供应链中断数月，严重影响旺季备货。</p>
-            <footer class="card-footer">
-                全文：<span class="source-links"><a href="https://www.cifnews.com/article/184099?origin=yggw_pc_ptqb_6" target="_blank" rel="noopener">→</a> · <a href="https://www.cifnews.com/article/184099" target="_blank" rel="noopener">→</a></span>
-            </footer>
-        </article>
-        </section>
-
-        <section class="module">
-            <header class="section-header">
-                <span class="section-number">03</span>
-                <h2 class="section-title">搞钱与成单拆解</h2>
-                <span class="section-subtitle">工作流洞察</span>
-            </header>
-            
-        <article class="workflow-card">
-            <div class="card-meta">案例 01</div>
-            <h3 class="workflow-title">独立站底层逻辑重构</h3>
-            <p class="workflow-detail">利用 ACF 将产品信息模块化（参数、描述、图片分离），先梳理生意模式与客户痛点，再搭建网站，而非单纯套模板。</p>
-            <div class="workflow-tools">
-                <span class="tools-label">工具</span>
-                ['WordPress', 'ACF 插件', 'AI 内容生成']
-            </div>
-            <footer class="card-footer">
-                来源：<span class="source-links"><a href="https://ask.imiker.com/question/946355" target="_blank" rel="noopener">→</a> · <a href="https://ask.imiker.com/question/946338" target="_blank" rel="noopener">→</a></span>
-            </footer>
-        </article>
-        <article class="workflow-card">
-            <div class="card-meta">案例 02</div>
-            <h3 class="workflow-title">亚马逊 Rufus 广告意图优化</h3>
-            <p class="workflow-detail">针对 AI 语义搜索优化 Listing，通过图片场景、评论语义和行为数据建立意图标签，而非堆砌关键词，以获取 AI 推荐流量。</p>
-            <div class="workflow-tools">
-                <span class="tools-label">工具</span>
-                ['Amazon Advertising Console', 'AI 图片优化工具', 'Rufus 广告后台']
-            </div>
-            <footer class="card-footer">
-                来源：<span class="source-links"><a href="https://www.cifnews.com/article/184178" target="_blank" rel="noopener">→</a> · <a href="https://www.cifnews.com/article/184142" target="_blank" rel="noopener">→</a></span>
-            </footer>
-        </article>
-        </section>
-
-        <section class="module">
-            <header class="section-header">
-                <span class="section-number">04</span>
-                <h2 class="section-title">原汁原味的呐喊</h2>
-                <span class="section-subtitle">真实声音</span>
-            </header>
-            <div class="quotes-grid">
-                
-        <article class="quote-card" style="transform: rotate(1deg);">
-            <blockquote class="quote-text">该死的战争！业绩直接受很大影响 好难啊!</blockquote>
-            <footer class="quote-footer">
-                <span class="quote-source-label">米课圈 @圈友</span>
-                <span class="source-links"><a href="https://ask.imiker.com/question/946439" target="_blank" rel="noopener">→</a></span>
-            </footer>
-        </article>
-        <article class="quote-card" style="transform: rotate(-0.5deg);">
-            <blockquote class="quote-text">一周之内，五家主打‘一件代发’的海外仓相继关门，有仓主甚至把客户 8 个仓库的货物全部变卖后人间蒸发。</blockquote>
-            <footer class="quote-footer">
-                <span class="quote-source-label">雨果网</span>
-                <span class="source-links"><a href="https://www.cifnews.com/article/184099?origin=yggw_pc_ptqb_6" target="_blank" rel="noopener">→</a></span>
-            </footer>
-        </article>
-        <article class="quote-card" style="transform: rotate(0.5deg);">
-            <blockquote class="quote-text">AI 确实解决了多人可以做的基础工作。但是对逻辑，审美，决策要求更高了……烧脑……</blockquote>
-            <footer class="quote-footer">
-                <span class="quote-source-label">米课圈 @圈友</span>
-                <span class="source-links"><a href="https://ask.imiker.com/question/946358" target="_blank" rel="noopener">→</a></span>
-            </footer>
-        </article>
-            </div>
-        </section>
-
-        <footer class="page-footer">
-            <p>数据已存储至本地 Markdown 素材库</p>
-            <p>同理心是做好产品的第一步</p>
-        </footer>
     </div>
+    <script>
+(function() {
+    const MIN_YEAR = 2026, MIN_MONTH = 3;
+    let manifest = { days: [] };
+    let currentYear = 2026, currentMonth = 3;
+
+    function parseDate(dateStr) {
+        const [y, m, d] = dateStr.split('-').map(Number);
+        return { y, m, d };
+    }
+
+    function getDaysInMonth(y, m) {
+        const first = new Date(y, m - 1, 1);
+        const last = new Date(y, m, 0);
+        return last.getDate();
+    }
+
+    function getFirstWeekday(y, m) {
+        return new Date(y, m - 1, 1).getDay();
+    }
+
+    function monthKey(y, m) {
+        return y + '-' + String(m).padStart(2, '0');
+    }
+
+    function buildDayMap() {
+        const map = {};
+        manifest.days.forEach(function(d) {
+            const key = d.date;
+            map[key] = { mood_word: d.mood_word, mood_color: d.mood_color, mood_reason: d.mood_reason };
+        });
+        return map;
+    }
+
+    function renderCalendar() {
+        const titleEl = document.getElementById('calendar-title');
+        const gridEl = document.getElementById('calendar-grid');
+        const btnPrev = document.getElementById('btn-prev');
+        const btnNext = document.getElementById('btn-next');
+        titleEl.textContent = currentYear + ' 年 ' + currentMonth + ' 月';
+        btnPrev.disabled = currentYear === MIN_YEAR && currentMonth === MIN_MONTH;
+        btnNext.disabled = currentYear === new Date().getFullYear() && currentMonth === new Date().getMonth() + 1;
+        const dayMap = buildDayMap();
+        const daysInMonth = getDaysInMonth(currentYear, currentMonth);
+        const firstWeekday = getFirstWeekday(currentYear, currentMonth);
+        gridEl.innerHTML = '';
+        for (let i = 0; i < firstWeekday; i++) {
+            const cell = document.createElement('div');
+            cell.className = 'calendar-day empty';
+            cell.setAttribute('aria-hidden', 'true');
+            gridEl.appendChild(cell);
+        }
+        for (let d = 1; d <= daysInMonth; d++) {
+            const dateStr = currentYear + '-' + String(currentMonth).padStart(2, '0') + '-' + String(d).padStart(2, '0');
+            const info = dayMap[dateStr];
+            const cell = document.createElement(info ? 'a' : 'div');
+            cell.className = 'calendar-day' + (info ? ' has-data' : ' empty');
+            if (info) {
+                cell.href = 'neican-' + dateStr + '.html';
+                cell.setAttribute('title', info.mood_reason || info.mood_word);
+            }
+            const dayNum = document.createElement('span');
+            dayNum.textContent = d;
+            cell.appendChild(dayNum);
+            if (info) {
+                const label = document.createElement('span');
+                label.className = 'mood-label';
+                label.textContent = info.mood_word;
+                label.style.color = info.mood_color;
+                cell.appendChild(label);
+            }
+            gridEl.appendChild(cell);
+        }
+    }
+
+    document.getElementById('btn-prev').addEventListener('click', function() {
+        if (currentMonth === 1) { currentYear--; currentMonth = 12; } else { currentMonth--; }
+        if (currentYear < MIN_YEAR || (currentYear === MIN_YEAR && currentMonth < MIN_MONTH)) {
+            currentYear = MIN_YEAR; currentMonth = MIN_MONTH;
+        }
+        renderCalendar();
+    });
+    document.getElementById('btn-next').addEventListener('click', function() {
+        const now = new Date();
+        if (currentYear > now.getFullYear() || (currentYear === now.getFullYear() && currentMonth >= now.getMonth() + 1)) return;
+        if (currentMonth === 12) { currentYear++; currentMonth = 1; } else { currentMonth++; }
+        renderCalendar();
+    });
+
+    fetch('./manifest.json')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+            manifest = data;
+            renderCalendar();
+        })
+        .catch(function() {
+            document.getElementById('calendar-title').textContent = '暂无数据';
+        });
+})();
+    </script>
 </body>
 </html>
