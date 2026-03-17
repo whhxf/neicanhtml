@@ -26,53 +26,103 @@
             background: var(--color-bg);
             font-size: 15px;
         }
-        .container { max-width: 720px; margin: 0 auto; padding: 60px 24px; }
         .masthead {
             text-align: center;
-            padding-bottom: 32px;
+            padding: 24px 24px 20px;
             border-bottom: 3px double var(--color-ink);
-            margin-bottom: 32px;
         }
         .masthead::before {
             content: '';
             display: block;
             height: 4px;
             background: linear-gradient(90deg, var(--color-ink) 0%, var(--color-accent) 50%, var(--color-ink) 100%);
-            margin: -60px -24px 40px -24px;
+            margin: -24px -24px 24px -24px;
         }
         .publication-title {
             font-family: 'Playfair Display', 'Noto Serif SC', serif;
-            font-size: 42px;
+            font-size: 36px;
             font-weight: 700;
-            letter-spacing: 8px;
+            letter-spacing: 6px;
             color: var(--color-ink);
-            margin-bottom: 8px;
+            margin-bottom: 6px;
             text-transform: uppercase;
         }
-        .publication-subtitle { font-size: 12px; color: var(--color-ink-light); letter-spacing: 2px; margin-bottom: 8px; }
-        .section-title { font-size: 18px; font-weight: 600; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 2px solid var(--color-ink); }
+        .publication-subtitle { font-size: 12px; color: var(--color-ink-light); letter-spacing: 2px; }
+        .layout-wrap {
+            display: flex;
+            gap: 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+        .main {
+            flex: 1;
+            min-width: 0;
+        }
+        .section-title { font-size: 16px; font-weight: 600; margin-bottom: 12px; padding-bottom: 6px; border-bottom: 2px solid var(--color-ink); }
         #report-wrap {
             background: var(--color-paper);
             border: 1px solid var(--border-light);
-            margin-bottom: 48px;
-            min-height: 400px;
             overflow: hidden;
         }
-        #report-frame { width: 100%; height: 80vh; min-height: 500px; border: 0; display: block; }
+        #report-frame { width: 100%; height: 80vh; min-height: 520px; border: 0; display: block; }
         .no-report { padding: 40px; text-align: center; color: var(--color-ink-light); }
-        .calendar-section { margin-top: 48px; }
+        .sidebar {
+            width: 280px;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+        .history-section { flex-shrink: 0; }
+        .history-list-wrap {
+            max-height: 36vh;
+            overflow-y: auto;
+            border: 1px solid var(--border-light);
+            background: var(--color-paper);
+            border-radius: 6px;
+        }
+        .history-list { list-style: none; }
+        .history-list a {
+            display: block;
+            padding: 10px 12px;
+            border-bottom: 1px solid var(--border-light);
+            color: var(--color-ink);
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .history-list a:hover { background: var(--color-bg); }
+        .history-list a:last-child { border-bottom: none; }
+        .history-date { font-weight: 600; margin-bottom: 2px; }
+        .history-mood { font-size: 12px; color: var(--color-ink-light); }
+        .history-more {
+            display: block;
+            width: 100%;
+            margin-top: 8px;
+            padding: 8px 12px;
+            font-family: inherit;
+            font-size: 13px;
+            cursor: pointer;
+            background: var(--color-paper);
+            border: 1px solid var(--border-medium);
+            color: var(--color-ink);
+            border-radius: 4px;
+        }
+        .history-more:hover { background: var(--color-bg); border-color: var(--color-accent); }
+        .history-more:disabled { opacity: 0.5; cursor: not-allowed; }
+        .calendar-section { flex-shrink: 0; }
         .calendar-header {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 16px;
+            margin-bottom: 10px;
         }
-        .calendar-title { font-size: 20px; font-weight: 600; }
-        .calendar-nav { display: flex; gap: 8px; }
+        .calendar-title { font-size: 16px; font-weight: 600; }
+        .calendar-nav { display: flex; gap: 6px; }
         .calendar-nav button {
-            padding: 6px 14px;
+            padding: 4px 10px;
             font-family: inherit;
-            font-size: 14px;
+            font-size: 12px;
             cursor: pointer;
             background: var(--color-paper);
             border: 1px solid var(--border-medium);
@@ -84,16 +134,16 @@
         .calendar-weekdays {
             display: grid;
             grid-template-columns: repeat(7, 1fr);
-            gap: 4px;
-            margin-bottom: 8px;
-            font-size: 12px;
+            gap: 2px;
+            margin-bottom: 6px;
+            font-size: 10px;
             color: var(--color-ink-light);
             text-align: center;
         }
         .calendar-grid {
             display: grid;
             grid-template-columns: repeat(7, 1fr);
-            gap: 6px;
+            gap: 4px;
         }
         .calendar-day {
             aspect-ratio: 1;
@@ -101,8 +151,8 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            font-size: 12px;
-            border-radius: 6px;
+            font-size: 11px;
+            border-radius: 4px;
             background: var(--color-bg);
             border: 1px solid var(--border-light);
             color: var(--color-ink-light);
@@ -113,106 +163,134 @@
             color: var(--color-ink);
             font-weight: 600;
         }
-        .calendar-day.has-data:hover { border-color: var(--color-accent); box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
-        .calendar-day.mood-label { font-size: 10px; margin-top: 2px; }
+        .calendar-day.has-data:hover { border-color: var(--color-accent); box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+        .calendar-day .mood-label { font-size: 9px; margin-top: 1px; }
         .calendar-day.empty { opacity: 0.5; }
+        @media (max-width: 900px) {
+            .layout-wrap { flex-direction: column; }
+            .sidebar { width: 100%; flex-direction: row; flex-wrap: wrap; }
+            .history-section { flex: 1; min-width: 260px; }
+            .history-list-wrap { max-height: 240px; }
+            .calendar-section { min-width: 260px; }
+        }
         @media (max-width: 640px) {
-            .container { padding: 24px 16px; }
-            .publication-title { font-size: 28px; letter-spacing: 4px; }
+            .masthead { padding: 16px; }
+            .publication-title { font-size: 26px; letter-spacing: 4px; }
+            .layout-wrap { padding: 16px; }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header class="masthead">
-            <div class="publication-title">外贸内参</div>
-            <div class="publication-subtitle">Waimao Intelligence Briefing · 汇总</div>
-        </header>
-        <section id="report-section">
+    <header class="masthead">
+        <div class="publication-title">外贸内参</div>
+        <div class="publication-subtitle">Waimao Intelligence Briefing · 汇总</div>
+    </header>
+    <div class="layout-wrap">
+        <main class="main">
             <h2 class="section-title">当日最新内参</h2>
             <div id="report-wrap"><iframe id="report-frame" src="neican-2026-03-16.html" title="当日内参"></iframe></div>
-        </section>
-        <section class="calendar-section">
-            <h2 class="section-title">情绪日历</h2>
-            <div class="calendar-header">
-                <span class="calendar-title" id="calendar-title">加载中…</span>
-                <div class="calendar-nav">
-                    <button type="button" id="btn-prev" aria-label="上一月">上一月</button>
-                    <button type="button" id="btn-next" aria-label="下一月">下一月</button>
+        </main>
+        <aside class="sidebar">
+            <section class="history-section">
+                <h2 class="section-title">历史内参</h2>
+                <div class="history-list-wrap">
+                    <ul class="history-list" id="history-list"></ul>
                 </div>
-            </div>
-            <div class="calendar-weekdays">
-                <span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span>
-            </div>
-            <div class="calendar-grid" id="calendar-grid"></div>
-        </section>
+                <button type="button" class="history-more" id="history-more">加载更多</button>
+            </section>
+            <section class="calendar-section">
+                <h2 class="section-title">情绪日历</h2>
+                <div class="calendar-header">
+                    <span class="calendar-title" id="calendar-title">加载中…</span>
+                    <div class="calendar-nav">
+                        <button type="button" id="btn-prev" aria-label="上一月">上一月</button>
+                        <button type="button" id="btn-next" aria-label="下一月">下一月</button>
+                    </div>
+                </div>
+                <div class="calendar-weekdays">
+                    <span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span>
+                </div>
+                <div class="calendar-grid" id="calendar-grid"></div>
+            </section>
+        </aside>
     </div>
     <script>
 (function() {
     const MIN_YEAR = 2026, MIN_MONTH = 3;
+    const HISTORY_PAGE_SIZE = 10;
     let manifest = { days: [] };
     let currentYear = 2026, currentMonth = 3;
-
-    function parseDate(dateStr) {
-        const [y, m, d] = dateStr.split('-').map(Number);
-        return { y, m, d };
-    }
+    let historyShown = 0;
 
     function getDaysInMonth(y, m) {
-        const first = new Date(y, m - 1, 1);
-        const last = new Date(y, m, 0);
-        return last.getDate();
+        return new Date(y, m, 0).getDate();
     }
-
     function getFirstWeekday(y, m) {
         return new Date(y, m - 1, 1).getDay();
     }
-
-    function monthKey(y, m) {
-        return y + '-' + String(m).padStart(2, '0');
-    }
-
     function buildDayMap() {
         const map = {};
         manifest.days.forEach(function(d) {
-            const key = d.date;
-            map[key] = { mood_word: d.mood_word, mood_color: d.mood_color, mood_reason: d.mood_reason };
+            map[d.date] = { mood_word: d.mood_word, mood_color: d.mood_color, mood_reason: d.mood_reason };
         });
         return map;
     }
 
+    function renderHistoryList(append) {
+        const listEl = document.getElementById('history-list');
+        const btnEl = document.getElementById('history-more');
+        const total = manifest.days.length;
+        if (!append) {
+            listEl.innerHTML = '';
+            historyShown = 0;
+        }
+        const end = Math.min(historyShown + HISTORY_PAGE_SIZE, total);
+        for (var i = historyShown; i < end; i++) {
+            var d = manifest.days[i];
+            var a = document.createElement('a');
+            a.href = 'neican-' + d.date + '.html';
+            a.innerHTML = '<span class="history-date">' + d.date + '</span><span class="history-mood">' + (d.mood_word || '—') + '</span>';
+            listEl.appendChild(a);
+        }
+        historyShown = end;
+        btnEl.style.display = total === 0 ? 'none' : 'block';
+        btnEl.disabled = historyShown >= total;
+        btnEl.textContent = historyShown >= total ? '已全部加载' : '加载更多';
+    }
+
     function renderCalendar() {
-        const titleEl = document.getElementById('calendar-title');
-        const gridEl = document.getElementById('calendar-grid');
-        const btnPrev = document.getElementById('btn-prev');
-        const btnNext = document.getElementById('btn-next');
+        var titleEl = document.getElementById('calendar-title');
+        var gridEl = document.getElementById('calendar-grid');
+        var btnPrev = document.getElementById('btn-prev');
+        var btnNext = document.getElementById('btn-next');
         titleEl.textContent = currentYear + ' 年 ' + currentMonth + ' 月';
         btnPrev.disabled = currentYear === MIN_YEAR && currentMonth === MIN_MONTH;
-        btnNext.disabled = currentYear === new Date().getFullYear() && currentMonth === new Date().getMonth() + 1;
-        const dayMap = buildDayMap();
-        const daysInMonth = getDaysInMonth(currentYear, currentMonth);
-        const firstWeekday = getFirstWeekday(currentYear, currentMonth);
+        var now = new Date();
+        btnNext.disabled = currentYear > now.getFullYear() || (currentYear === now.getFullYear() && currentMonth >= now.getMonth() + 1);
+        var dayMap = buildDayMap();
+        var daysInMonth = getDaysInMonth(currentYear, currentMonth);
+        var firstWeekday = getFirstWeekday(currentYear, currentMonth);
         gridEl.innerHTML = '';
-        for (let i = 0; i < firstWeekday; i++) {
-            const cell = document.createElement('div');
+        for (var i = 0; i < firstWeekday; i++) {
+            var cell = document.createElement('div');
             cell.className = 'calendar-day empty';
             cell.setAttribute('aria-hidden', 'true');
             gridEl.appendChild(cell);
         }
-        for (let d = 1; d <= daysInMonth; d++) {
-            const dateStr = currentYear + '-' + String(currentMonth).padStart(2, '0') + '-' + String(d).padStart(2, '0');
-            const info = dayMap[dateStr];
-            const cell = document.createElement(info ? 'a' : 'div');
+        for (var d = 1; d <= daysInMonth; d++) {
+            var dateStr = currentYear + '-' + String(currentMonth).padStart(2, '0') + '-' + String(d).padStart(2, '0');
+            var info = dayMap[dateStr];
+            var cell = document.createElement(info ? 'a' : 'div');
             cell.className = 'calendar-day' + (info ? ' has-data' : ' empty');
             if (info) {
                 cell.href = 'neican-' + dateStr + '.html';
                 cell.setAttribute('title', info.mood_reason || info.mood_word);
             }
-            const dayNum = document.createElement('span');
+            var dayNum = document.createElement('span');
             dayNum.textContent = d;
             cell.appendChild(dayNum);
             if (info) {
-                const label = document.createElement('span');
+                var label = document.createElement('span');
                 label.className = 'mood-label';
                 label.textContent = info.mood_word;
                 label.style.color = info.mood_color;
@@ -224,22 +302,22 @@
 
     document.getElementById('btn-prev').addEventListener('click', function() {
         if (currentMonth === 1) { currentYear--; currentMonth = 12; } else { currentMonth--; }
-        if (currentYear < MIN_YEAR || (currentYear === MIN_YEAR && currentMonth < MIN_MONTH)) {
-            currentYear = MIN_YEAR; currentMonth = MIN_MONTH;
-        }
+        if (currentYear < MIN_YEAR || (currentYear === MIN_YEAR && currentMonth < MIN_MONTH)) { currentYear = MIN_YEAR; currentMonth = MIN_MONTH; }
         renderCalendar();
     });
     document.getElementById('btn-next').addEventListener('click', function() {
-        const now = new Date();
+        var now = new Date();
         if (currentYear > now.getFullYear() || (currentYear === now.getFullYear() && currentMonth >= now.getMonth() + 1)) return;
         if (currentMonth === 12) { currentYear++; currentMonth = 1; } else { currentMonth++; }
         renderCalendar();
     });
+    document.getElementById('history-more').addEventListener('click', function() { renderHistoryList(true); });
 
     fetch('./manifest.json')
         .then(function(r) { return r.json(); })
         .then(function(data) {
             manifest = data;
+            renderHistoryList(false);
             renderCalendar();
         })
         .catch(function() {
