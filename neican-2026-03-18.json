@@ -1,0 +1,98 @@
+{
+  "overall_mood": {
+    "word": "焦虑",
+    "reason": "美线 IOR 合规大限将至叠加欧盟关税新政，海外仓暴雷与利润下滑消息频发，外贸人面临合规与成本双重高压。",
+    "source_urls": [
+      "https://www.cifnews.com/article/184238",
+      "https://www.cifnews.com/article/183648",
+      "https://www.cifnews.com/article/184099"
+    ]
+  },
+  "top_3_pain_points": [
+    {
+      "name": "美线合规危机",
+      "scene": "3 月 20 日大批 IOR 编号作废，双清包税模式终结，卖家担心货物滞留退运，急需真实进口商资质。",
+      "product_idea": "合规进口商资质匹配平台，提供真实 IOR 租赁与备案核验服务，降低清关风险。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184238",
+        "https://www.52by.com/article/213354"
+      ]
+    },
+    {
+      "name": "海外仓信任崩塌",
+      "scene": "洛杉矶多家海外仓集体跑路，货物被变卖，卖家血本无归，低价陷阱导致资金货物双重损失。",
+      "product_idea": "海外仓风险评级系统，整合工商数据与用户评价，预警经营异常仓库，保障货物安全。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184099"
+      ]
+    },
+    {
+      "name": "AI 工具安全焦虑",
+      "scene": "想用 OpenClaw 提效却怕账号被盗，有人花 50 元代装结果信用卡被刷，高权限工具引发数据泄露恐慌。",
+      "product_idea": "跨境专用安全 AI 代理，隔离店铺权限，提供本地化部署与操作审计，确保账号资产安全。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184088?origin=yggw_pc_ptqb_8"
+      ]
+    }
+  ],
+  "core_news_impact": [
+    {
+      "title": "美国海关 3 月 20 日起作废大批 IOR 编号",
+      "impact_type": "cost",
+      "interpretation": "双清包税灰色模式终结，卖家需自建美国实体或购买合规服务，固定运营成本增加 5-10 万美元/年，现金流压力剧增。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184238",
+        "https://www.52by.com/article/213354"
+      ]
+    },
+    {
+      "title": "欧盟 7 月 1 日起取消 150 欧元免税阈值",
+      "impact_type": "cost",
+      "interpretation": "过渡期内小包裹统一征收 3 欧元固定关税，低客单价直邮卖家利润被压缩，被迫转向海外仓或提升客单价。",
+      "source_urls": [
+        "https://www.cifnews.com/article/183648"
+      ]
+    }
+  ],
+  "workflow_insights": [
+    {
+      "title": "AI 模特替代实拍降本增效",
+      "detail": "使用美图设计室生成虚拟模特试穿图，每天 5-10 分钟出图，相似度超 95%，测款周期从两周压缩至 24 小时，年省拍摄成本 30-40 万。",
+      "tools": "美图设计室、生成式 AI",
+      "source_urls": [
+        "https://www.cifnews.com/article/183813"
+      ]
+    },
+    {
+      "title": "深夜响应建立客户信任",
+      "detail": "半夜 2 点处理巴西客户清关文件修改，避免货物延误，客户感动后主动语音感谢并加速付款，服务细节拉近客情关系。",
+      "tools": "Email、WhatsApp、电脑",
+      "source_urls": [
+        "https://ask.imiker.com/question/946495"
+      ]
+    }
+  ],
+  "raw_quotes": [
+    {
+      "text": "一周之内，五家主打‘一件代发’的海外仓相继关门，有仓主甚至把客户 8 个仓库的货物全部变卖后人间蒸发。",
+      "source_label": "雨果网",
+      "source_urls": [
+        "https://www.cifnews.com/article/184099"
+      ]
+    },
+    {
+      "text": "竞争太激烈了 因为价格 客户在不断的丢失中 外贸寒冬具象化 不放弃 越努力 机会会多一些",
+      "source_label": "米课圈",
+      "source_urls": [
+        "https://ask.imiker.com/question/946514"
+      ]
+    },
+    {
+      "text": "花 50 元找人远程安装 OpenClaw，结果安装当天，店铺后台就出现异常登录记录，绑定的信用卡被莫名刷走近万元。",
+      "source_label": "雨果网",
+      "source_urls": [
+        "https://www.cifnews.com/article/184088?origin=yggw_pc_ptqb_8"
+      ]
+    }
+  ]
+}
