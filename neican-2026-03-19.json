@@ -1,0 +1,103 @@
+{
+  "overall_mood": {
+    "word": "焦虑",
+    "reason": "美国海关 IOR 大清洗倒计时引发恐慌，合规成本飙升，叠加价格战导致客户流失，社区内失眠与职场焦虑帖频发。",
+    "source_urls": [
+      "https://www.cifnews.com/article/184238",
+      "https://www.52by.com/article/213486",
+      "https://ask.imiker.com/question/946468"
+    ]
+  },
+  "top_3_pain_points": [
+    {
+      "name": "美国清关合规危机",
+      "scene": "3 月 20 日起作废部分 IOR 编号，货物滞留、退运风险激增，卖家急需合规方案。",
+      "product_idea": "一键核查 IOR 有效性及合规货代匹配平台，提供应急清关咨询服务。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184238",
+        "https://www.52by.com/article/213486",
+        "https://ask.imiker.com/question/946491"
+      ]
+    },
+    {
+      "name": "价格战客户流失",
+      "scene": "因为价格 客户在不断的丢失中 外贸寒冬具象化，老客户返单周期变长。",
+      "product_idea": "差异化价值塑造与成本管控 SaaS 工具，辅助谈判而非单纯降价。",
+      "source_urls": [
+        "https://ask.imiker.com/question/946514",
+        "https://ask.imiker.com/question/946541",
+        "https://www.cifnews.com/article/184211"
+      ]
+    },
+    {
+      "name": "职场生育歧视",
+      "scene": "生个娃休个假才知道女性职场生存多不容易，休产假后大客户被分走，底薪要降低。",
+      "product_idea": "外贸女性职业保障与再就业咨询服务，提供灵活用工对接平台。",
+      "source_urls": [
+        "https://ask.imiker.com/question/946580",
+        "https://ask.imiker.com/question/946565",
+        "https://ask.imiker.com/question/946468"
+      ]
+    }
+  ],
+  "core_news_impact": [
+    {
+      "title": "美国海关 3 月 20 日起大批废止 IOR 编号",
+      "impact_type": "cost",
+      "interpretation": "灰色清关终结，卖家需承担更高合规成本及滞港风险，必须转向单票单清模式。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184238",
+        "https://www.52by.com/article/213486"
+      ]
+    },
+    {
+      "title": "2026 年 Shopee 全托管激励升级",
+      "impact_type": "opportunity",
+      "interpretation": "新增品牌及重货扶持，降低出海门槛，提供流量红利，适合产业带商家入局。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184210"
+      ]
+    }
+  ],
+  "workflow_insights": [
+    {
+      "title": "生成式 AI 模特降本提效",
+      "detail": "5-10 分钟生成电商素材，相似度超 95%，年省拍摄成本 30-40 万，解决真人拍摄效率低问题。",
+      "tools": "美图设计室",
+      "source_urls": [
+        "https://www.cifnews.com/article/184200"
+      ]
+    },
+    {
+      "title": "CRM 客户细节深度管理",
+      "detail": "通过系统记录客户特殊字符名字等细节，避免文化误判，提升专业度与客户信任感。",
+      "tools": "CRM 系统",
+      "source_urls": [
+        "https://ask.imiker.com/question/946515"
+      ]
+    }
+  ],
+  "raw_quotes": [
+    {
+      "text": "今晚又失眠了😑 工厂产品价格涨价太多了 不知道接下来怎么办才好  还有孩子的教育问题，买房问题  一堆事情压得心里不舒服",
+      "source_label": "米课圈 @匿名用户",
+      "source_urls": [
+        "https://ask.imiker.com/question/946468"
+      ]
+    },
+    {
+      "text": "竞争太激烈了 因为价格 客户在不断的丢失中 外贸寒冬具象化 不放弃 越努力 机会会多一些",
+      "source_label": "米课圈 @匿名用户",
+      "source_urls": [
+        "https://ask.imiker.com/question/946514"
+      ]
+    },
+    {
+      "text": "跟客户的距离，就在一瞬间拉近呀  半夜 2 点睡不着，在玩手机呢，巴西客户发来邮件说清关文件需要改个东西...处理到 3 点多才好",
+      "source_label": "米课圈 @匿名用户",
+      "source_urls": [
+        "https://ask.imiker.com/question/946495"
+      ]
+    }
+  ]
+}
