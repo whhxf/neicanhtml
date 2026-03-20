@@ -1,0 +1,99 @@
+{
+  "overall_mood": {
+    "word": "焦虑",
+    "reason": "洛杉矶海外仓集体暴雷引发资金安全恐慌，加之税务稽查罚款千万及 AI 工具安全风险曝光，外贸人对合规运营与成本控制的担忧加剧。",
+    "source_urls": [
+      "https://www.cifnews.com/article/184099?origin=yggw_pc_ptqb_8",
+      "https://www.cifnews.com/article/184269?origin=yggw_pc_ptqb_1",
+      "https://www.cifnews.com/article/184088?origin=yggw_pc_ptqb_9"
+    ]
+  },
+  "top_3_pain_points": [
+    {
+      "name": "海外仓信任危机",
+      "scene": "一周之内五家海外仓关门，货物被变卖，卖家血本无归，急需确认仓库安全性。",
+      "product_idea": "海外仓信用评估 SaaS，实时监控仓库运营状态与资金健康度。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184099?origin=yggw_pc_ptqb_8"
+      ]
+    },
+    {
+      "name": "合规成本激增",
+      "scene": "美国 IOR 编号作废，税务稽查罚款千万，卖家担心因小失大被查封。",
+      "product_idea": "一站式合规自查工具，自动匹配最新各国税务与进口商法规。",
+      "source_urls": [
+        "https://www.52by.com/article/213610",
+        "https://www.cifnews.com/article/184269?origin=yggw_pc_ptqb_1"
+      ]
+    },
+    {
+      "name": "AI 工具安全焦虑",
+      "scene": "想养“龙虾”提效却怕账号被盗、Token 烧钱，陷入用与不用的两难。",
+      "product_idea": "企业级 AI 安全沙箱，隔离运营数据与 AI 执行权限。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184088?origin=yggw_pc_ptqb_9"
+      ]
+    }
+  ],
+  "core_news_impact": [
+    {
+      "title": "美国海关 3 月 20 日起作废部分 IOR 编号",
+      "impact_type": "cost",
+      "interpretation": "双清包税模式受冲击，卖家需转向合规申报，短期清关成本与时间成本上升，灰色清关渠道终结。",
+      "source_urls": [
+        "https://www.52by.com/article/213610",
+        "https://ask.imiker.com/question/946491"
+      ]
+    },
+    {
+      "title": "亚马逊 2026 年四大新卖家扶持计划上线",
+      "impact_type": "opportunity",
+      "interpretation": "新卖家可享受物流优惠券、广告折扣及佣金减免，降低起步门槛，利好新手入场及老卖家拓站。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184186?origin=yggw_pc_ptqb_3"
+      ]
+    }
+  ],
+  "workflow_insights": [
+    {
+      "title": "拉美市场“慢赢”哲学",
+      "detail": "不赌政策窗口期，提前布局合规，核心 SKU 多物流分散风险，选品只认复购和可控供应链。",
+      "tools": "美客多平台、本土物流商、阿米巴管理模式",
+      "source_urls": [
+        "https://www.cifnews.com/article/183457"
+      ]
+    },
+    {
+      "title": "谷歌 SEO 精准获客实战",
+      "detail": "放弃广撒网，通过三层意图建模还原采购商决策链路，优化站内技术架构与内容权威度。",
+      "tools": "谷歌 SEO 工具、CRM 系统、独立站",
+      "source_urls": [
+        "https://ask.imiker.com/question/946548",
+        "https://www.52by.com/article/213614"
+      ]
+    }
+  ],
+  "raw_quotes": [
+    {
+      "text": "一周之内，五家主打‘一件代发’的海外仓相继关门，有仓主甚至把客户 8 个仓库的货物全部变卖后人间蒸发。",
+      "source_label": "雨果网",
+      "source_urls": [
+        "https://www.cifnews.com/article/184099?origin=yggw_pc_ptqb_8"
+      ]
+    },
+    {
+      "text": "月薪两万，养不起一只龙虾",
+      "source_label": "雨果网",
+      "source_urls": [
+        "https://www.cifnews.com/article/184088?origin=yggw_pc_ptqb_9"
+      ]
+    },
+    {
+      "text": "竞争太激烈了 因为价格 客户在不断的丢失中 外贸寒冬具象化",
+      "source_label": "米课圈",
+      "source_urls": [
+        "https://ask.imiker.com/question/946514"
+      ]
+    }
+  ]
+}
