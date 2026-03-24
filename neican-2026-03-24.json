@@ -1,0 +1,98 @@
+{
+  "overall_mood": {
+    "word": "焦虑",
+    "reason": "税务合规暴雷致大卖补税四千万，中东战事升级物流受阻，美线 IOR 编号倒计时失效，多重风险叠加令外贸人紧绷。",
+    "source_urls": [
+      "https://www.cifnews.com/article/184088",
+      "https://www.cifnews.com/article/183813",
+      "https://www.cifnews.com/article/184238"
+    ]
+  },
+  "top_3_pain_points": [
+    {
+      "name": "上游虚开连环爆雷",
+      "scene": "三年前合作的工厂近期欠税导致发票异常，税务局要求 15 日内退还退税款，即便交易真实也要先补钱再追偿，资金链承压。",
+      "product_idea": "供应链税务风险雷达 SaaS，实时监控供应商税务状态与发票合规性，异常提前预警。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184088"
+      ]
+    },
+    {
+      "name": "物流通道突然熔断",
+      "scene": "中东战局导致霍尔木兹海峡封闭，海运停摆运费暴涨；美线 IOR 编号批量废止，货物到港无法清关面临退运。",
+      "product_idea": "全球物流风险动态地图，集成地缘政治与海关政策预警，提供备选路线与合规 IOR 一键匹配服务。",
+      "source_urls": [
+        "https://www.cifnews.com/article/183813",
+        "https://www.cifnews.com/article/184238"
+      ]
+    },
+    {
+      "name": "知识产权隐形地雷",
+      "scene": "鱼艺插画版权维权涉及 588 名卖家，UL 认证标志误用导致账户冻结，壁挂取暖器专利发案资金链被速冻。",
+      "product_idea": "跨境 IP 合规自查工具，上传图片自动比对版权库与专利库，生成合规报告与风险规避建议。",
+      "source_urls": [
+        "https://www.cifnews.com/article/169607",
+        "https://www.cifnews.com/article/184334"
+      ]
+    }
+  ],
+  "core_news_impact": [
+    {
+      "title": "美线 IOR 编号 3 月 20 日起批量废止，双清包税模式终结",
+      "impact_type": "time",
+      "interpretation": "违规 IOR 失效导致货物滞留退运，卖家需重新注册合规主体或更换货代，清关流程拉长，短期物流时效严重延误。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184238"
+      ]
+    },
+    {
+      "title": "上市大卖因供应商虚开发票被追缴税款四千多万",
+      "impact_type": "cost",
+      "interpretation": "即便无主观过错，下游企业仍需先行补缴税款及滞纳金，直接冲击净利润，合规成本大幅上升，利润空间被压缩。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184088"
+      ]
+    }
+  ],
+  "workflow_insights": [
+    {
+      "title": "TikTok 超级单品破局法",
+      "detail": "聚焦 0.3% 爆品率，打造月销 3000 单超级单品带动店铺层级跃迁；内容上前三秒抓眼球，积累 A3 人群，大促前两个月完成达人筛选与内容储备。",
+      "tools": "AI 剪辑工具、达人建联 SOP、数据复盘表格",
+      "source_urls": [
+        "https://www.cifnews.com/article/184390"
+      ]
+    },
+    {
+      "title": "外贸邮件默认推进策略",
+      "detail": "避免使用期待回复等被动结尾，改为确认事实型邮件，如材料已备好、产线已预留，给客户确认或微调的选择题，降低回复门槛。",
+      "tools": "邮件模板库、CRM 跟进记录",
+      "source_urls": [
+        "https://www.52by.com/article/211708"
+      ]
+    }
+  ],
+  "raw_quotes": [
+    {
+      "text": "三年前合作的工厂因为近期欠交税款导致三年内所有的发票都异常，我司三年前的发票也因此异常。要求 15 日内退还退税款。",
+      "source_label": "雨果网卖家评论",
+      "source_urls": [
+        "https://www.cifnews.com/article/184088"
+      ]
+    },
+    {
+      "text": "下班 感觉一天没干啥事；下午 5 点半刚进入工作状态，就下班了；因为要去运动。最近主要是建站和谷歌 ADS。建站应该是年前的工作。如果在年前建好了，现在就有询盘了。日子过的太快了，转眼 4 月就到了。年后还没有开张呢，只零星接了几个 mini 单子",
+      "source_label": "米课圈 @用户 946848",
+      "source_urls": [
+        "https://ask.imiker.com/question/946848"
+      ]
+    },
+    {
+      "text": "中东'捞金梦'碎在枪炮声里：有人压货百万，有人连夜止损",
+      "source_label": "雨果网",
+      "source_urls": [
+        "https://www.cifnews.com/article/183813"
+      ]
+    }
+  ]
+}
