@@ -1,0 +1,105 @@
+{
+  "overall_mood": {
+    "word": "焦虑",
+    "reason": "合规风暴叠加地缘冲突，美线 IOR 新规与欧盟 CBAM 截止在即，原材料疯涨致接单困难，外贸人普遍压力山大。",
+    "source_urls": [
+      "https://www.cifnews.com/article/184238?origin=yggw_pc_ptqb_4",
+      "https://www.52by.com/article/213905",
+      "https://ask.imiker.com/question/946908"
+    ]
+  },
+  "top_3_pain_points": [
+    {
+      "name": "合规税务雷区",
+      "scene": "上游虚开发票，下游被迫补税四千多万，无主观过错也要买单，三年前合作的工厂导致发票异常。",
+      "product_idea": "供应链税务风险扫描 SaaS，提前预警供应商发票状态。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184318?origin=yggw_pc_ptqb_2"
+      ]
+    },
+    {
+      "name": "物流成本失控",
+      "scene": "中东战火切断航空大动脉，运费暴涨，货物压港，客户拒付运费，补货通道被长期切断。",
+      "product_idea": "全球物流风险实时预警地图，动态计算战争险附加费。",
+      "source_urls": [
+        "https://www.cifnews.com/article/183813"
+      ]
+    },
+    {
+      "name": "获客转化焦虑",
+      "scene": "客户都静悄悄没动静，原材料疯涨没法接单，以前的价格现在都不能做了，客户要下单也下不了。",
+      "product_idea": "动态成本报价与客户激活工具，自动同步原材料指数调价。",
+      "source_urls": [
+        "https://ask.imiker.com/question/946908",
+        "https://ask.imiker.com/question/946899"
+      ]
+    }
+  ],
+  "core_news_impact": [
+    {
+      "title": "美线 IOR 编号大批失效，双清包税模式终结",
+      "impact_type": "cost",
+      "interpretation": "3 月 20 日起大批 IOR 编号废止，违规货物滞留退运，需重新备案合规 IOR，清关成本与操作压力陡增。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184238?origin=yggw_pc_ptqb_4"
+      ]
+    },
+    {
+      "title": "欧盟 CBAM 授权申报 3 月 31 日截止",
+      "impact_type": "cost",
+      "interpretation": "逾期未申请将无法进入欧盟市场，碳成本从信息披露转为财务支出，默认值惩罚性加价最高达 30%。",
+      "source_urls": [
+        "https://www.52by.com/article/213905"
+      ]
+    }
+  ],
+  "workflow_insights": [
+    {
+      "title": "TikTok 超级单品打法",
+      "detail": "0.3% 爆品率下聚焦超级单品，积累 A3 人群，内容种草 - 收割闭环，大促前提前两个月完成达人筛选。",
+      "tools": [
+        "TikTok Shop",
+        "AI 内容工具",
+        "达人建联 SOP"
+      ],
+      "source_urls": [
+        "https://www.cifnews.com/article/184390"
+      ]
+    },
+    {
+      "title": "极致售后换信任",
+      "detail": "客户屏幕“养鱼”投诉，自掏腰包寄零件解决，虽短期亏损但换来 20 万美金订单，责任刻在信任里。",
+      "tools": [
+        "客户关系管理",
+        "售后响应",
+        "国际快递"
+      ],
+      "source_urls": [
+        "https://www.52by.com/article/213924"
+      ]
+    }
+  ],
+  "raw_quotes": [
+    {
+      "text": "近期原材料的疯涨，导致目前基本没法接单了，以前的价格现在已经都不能做了，客户要下单也下不了，唉，这什么时候才是头。做外贸也真是太不容易，太累了。",
+      "source_label": "米课圈 @外贸人",
+      "source_urls": [
+        "https://ask.imiker.com/question/946908"
+      ]
+    },
+    {
+      "text": "三年前合作的工厂因为近期欠交税款导致三年内所有的发票都异常，我司三年前的发票也因此异常。要求 15 日内退还退税款。",
+      "source_label": "雨果网 @卖家",
+      "source_urls": [
+        "https://www.cifnews.com/article/184318?origin=yggw_pc_ptqb_2"
+      ]
+    },
+    {
+      "text": "不少卖家反馈，确实在使用过程中踩坑了... 我自己就经历过需要紧急轮换被暴露 token 的情况。",
+      "source_label": "雨果网 @LinkFox AI 行业顾问",
+      "source_urls": [
+        "https://www.cifnews.com/article/184088"
+      ]
+    }
+  ]
+}
