@@ -1,0 +1,111 @@
+{
+  "overall_mood": {
+    "word": "焦虑",
+    "reason": "原材料疯涨致无法接单，中东物流受阻客户不下单，欧盟与美国合规严查加剧焦虑，社区内健康担忧蔓延。",
+    "source_urls": [
+      "https://ask.imiker.com/question/946908",
+      "https://ask.imiker.com/question/947012",
+      "https://www.cifnews.com/article/184495"
+    ]
+  },
+  "top_3_pain_points": [
+    {
+      "name": "合规与清关风险",
+      "scene": "欧盟包装法 8 月生效必须注册 EPR 号，美国海关查扣拆分发货的电动自行车，9810 报关税务口径不一不敢走。",
+      "product_idea": "一站式合规自查工具，集成各国 EPR 注册入口与海关扣货案例库，提供 9810 税务申报模板。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184495",
+        "https://www.cifnews.com/article/184318",
+        "https://www.cifnews.com/article/184442"
+      ]
+    },
+    {
+      "name": "成本飙升与订单流失",
+      "scene": "近期原材料疯涨导致没法接单，去科威特被卡、迪拜运费居高不下客户不下单，阿根廷客户承诺下单后失联。",
+      "product_idea": "动态报价计算器，联动原材料指数与实时运费 API，自动生成含风险溢价的阶梯报价单。",
+      "source_urls": [
+        "https://ask.imiker.com/question/946908",
+        "https://ask.imiker.com/question/947012",
+        "https://ask.imiker.com/question/947011"
+      ]
+    },
+    {
+      "name": "流量爆发后的售后危机",
+      "scene": "TikTok 螺丝刀爆单但 DIY 小白不会用，客服回复慢导致差评，AI 拓客工具突然崩溃影响开发进度。",
+      "product_idea": "AI 视频说明书生成器，自动识别产品痛点生成 15 秒演示视频嵌入客服回复，搭配稳定版 AI 代理基础设施。",
+      "source_urls": [
+        "https://www.52by.com/article/212243",
+        "https://www.cifnews.com/article/184421",
+        "https://ask.imiker.com/question/946831"
+      ]
+    }
+  ],
+  "core_news_impact": [
+    {
+      "title": "欧盟包装法 PPWR 将于 8 月 12 日生效",
+      "impact_type": "cost",
+      "interpretation": "卖家必须在德法意西荷等五国完成 EPR 注册并缴费，否则面临停售及失去泛欧计划资格，直接增加合规成本与运营时间。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184495"
+      ]
+    },
+    {
+      "title": "美国海关查扣中国电动自行车并重启 301 调查",
+      "impact_type": "cost",
+      "interpretation": "拆分发货规避监管路径失效，货物面临扣押风险，301 调查可能带来新关税，迫使卖家优化供应链并预留关税成本。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184318",
+        "https://www.cifnews.com/article/184157"
+      ]
+    }
+  ],
+  "workflow_insights": [
+    {
+      "title": "TikTok 售后视频化降低客诉",
+      "detail": "将达人 15 秒演示视频嵌入客服回复模板，用户问怎么用直接发视频；建立配件补发标准化流程，响应时间从 3 小时缩至 20 秒。",
+      "tools": [
+        "短视频素材库",
+        "客服回复模板",
+        "海外仓库存系统"
+      ],
+      "source_urls": [
+        "https://www.52by.com/article/212243"
+      ]
+    },
+    {
+      "title": "AI 自动化客户开发流程",
+      "detail": "指令 AI 搜索 100 个客户并做背景调研，生成客户画像与定制化邮件，审核后自动发送邮件加领英，每日限制添加数量防封号。",
+      "tools": [
+        "AI 拓客工具 (龙虾)",
+        "LinkedIn",
+        "WhatsApp"
+      ],
+      "source_urls": [
+        "https://ask.imiker.com/question/946831"
+      ]
+    }
+  ],
+  "raw_quotes": [
+    {
+      "text": "近期原材料的疯涨，导致目前基本没法接单了，以前的价格现在已经都不能做了，客户要下单也下不了，唉，这什么时候才是头。",
+      "source_label": "米课圈 @外贸人",
+      "source_urls": [
+        "https://ask.imiker.com/question/946908"
+      ]
+    },
+    {
+      "text": "客户回复去科威特还是被卡。去迪拜的运费也居高不下，客户不下单。",
+      "source_label": "米课圈 @货代咨询",
+      "source_urls": [
+        "https://ask.imiker.com/question/947012"
+      ]
+    },
+    {
+      "text": "这文具的柜子，货配的崩溃啊。怎么会这么重啊啊啊啊。33 吨都来了，客户又说目的港 33 吨不行。",
+      "source_label": "米课圈 @操作崩溃",
+      "source_urls": [
+        "https://ask.imiker.com/question/946909"
+      ]
+    }
+  ]
+}
