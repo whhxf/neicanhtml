@@ -1,0 +1,110 @@
+{
+  "overall_mood": {
+    "word": "焦虑",
+    "reason": "亚马逊封号潮再起、欧盟免税终结及中东局势动荡，多重合规与地缘风险叠加，外贸人普遍感到压力山大。",
+    "source_urls": [
+      "https://www.cifnews.com/article/184540",
+      "https://www.cifnews.com/article/183648",
+      "https://ask.imiker.com/question/946908"
+    ]
+  },
+  "top_3_pain_points": [
+    {
+      "name": "合规与账号安全危机",
+      "scene": "亚马逊人工扫号封店，美国 IOR 编号作废，欧盟关税门槛取消，卖家担心账号资金瞬间归零。",
+      "product_idea": "全球合规风险实时监控仪表盘，自动预警税务与账号关联风险。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184540",
+        "https://www.cifnews.com/article/184238",
+        "https://ask.imiker.com/question/947063"
+      ]
+    },
+    {
+      "name": "成本飙升与物流受阻",
+      "scene": "原材料疯涨没法报价，中东战事导致运费居高不下且货物被卡，利润空间被极限压缩。",
+      "product_idea": "动态成本核算与替代物流路线推荐工具，帮助快速评估订单可行性。",
+      "source_urls": [
+        "https://www.cifnews.com/article/183813",
+        "https://ask.imiker.com/question/946908",
+        "https://ask.imiker.com/question/947012"
+      ]
+    },
+    {
+      "name": "客户失联与转化困难",
+      "scene": "年后客户承诺下单却消失，面对降价要求不知如何谈判，询盘多但成交少。",
+      "product_idea": "AI 客户跟进助手，自动生成差异化谈判话术与唤醒邮件。",
+      "source_urls": [
+        "https://ask.imiker.com/question/947011",
+        "https://ask.imiker.com/question/947021",
+        "https://www.52by.com/article/214175"
+      ]
+    }
+  ],
+  "core_news_impact": [
+    {
+      "title": "欧盟取消 150 欧元免税阈值，7 月起征收新关税",
+      "impact_type": "cost",
+      "interpretation": "低客单价直邮模式成本激增 15-20%，卖家需转向海外仓或提升客单价以摊薄关税成本。",
+      "source_urls": [
+        "https://www.cifnews.com/article/183648"
+      ]
+    },
+    {
+      "title": "美国海关大批 IOR 编号废止，双清包税模式终结",
+      "impact_type": "time",
+      "interpretation": "3 月 20 日起违规货物将滞留退运，卖家需提前核查物流商资质或注册美国本土实体以确保清关时效。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184238"
+      ]
+    }
+  ],
+  "workflow_insights": [
+    {
+      "title": "TikTok 东南亚新手 50 天日销万单复盘",
+      "detail": "采用内容 + 货架双轮驱动，利用纯佣达人批量建联快速起量，结合跨境直邮降低备货风险。",
+      "tools": [
+        "TikTok Shop",
+        "精选达人联盟",
+        "跨境魔方海关数据"
+      ],
+      "source_urls": [
+        "https://www.cifnews.com/article/184502"
+      ]
+    },
+    {
+      "title": "阿里 Accio Work 实现一人跨国公司运营",
+      "detail": "利用 AI Agent 自主完成市场分析、选品设计到店铺上架全流程，将数周工作压缩至 30 分钟，但需注意数据安全。",
+      "tools": [
+        "Accio Work",
+        "AI 运营工具",
+        "影刀 RPA"
+      ],
+      "source_urls": [
+        "https://www.cifnews.com/article/184495"
+      ]
+    }
+  ],
+  "raw_quotes": [
+    {
+      "text": "近期原材料的疯涨，导致目前基本没法接单了，以前的价格现在已经都不能做了，客户要下单也下不了，唉，这什么时候才是头。做外贸也真是太不容易，太累了。",
+      "source_label": "米课圈 @用户 946908",
+      "source_urls": [
+        "https://ask.imiker.com/question/946908"
+      ]
+    },
+    {
+      "text": "这次是亚马逊 L7 级经理同意并授权的，区别于之前的机器扫号，这次扫号全部都是人工扫的。",
+      "source_label": "雨果网",
+      "source_urls": [
+        "https://www.cifnews.com/article/184540"
+      ]
+    },
+    {
+      "text": "客户回复去科威特还是被卡。去迪拜的运费也居高不下，客户不下单。",
+      "source_label": "米课圈 @用户 947012",
+      "source_urls": [
+        "https://ask.imiker.com/question/947012"
+      ]
+    }
+  ]
+}
