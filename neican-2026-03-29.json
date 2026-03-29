@@ -1,0 +1,96 @@
+{
+  "overall_mood": {
+    "word": "焦虑",
+    "reason": "美线 IOR 编号大批失效、USPS 运费上涨及产品质量诉讼频发，合规与成本双重压力让卖家紧绷，但学习社群中仍可见积极求变心态。",
+    "source_urls": [
+      "https://www.cifnews.com/article/184238",
+      "https://www.cifnews.com/article/184602",
+      "https://www.cifnews.com/article/184485"
+    ]
+  },
+  "top_3_pain_points": [
+    {
+      "name": "美线合规断崖",
+      "scene": "3 月 20 日起 IOR 编号失效，货物滞留退运风险大增，货代催着要资料，老板还在问利润，双清包税彻底行不通了。",
+      "product_idea": "一键 IOR 合规自查工具 + 美国实体注册绿色通道，降低合规门槛。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184238"
+      ]
+    },
+    {
+      "name": "物流成本暴涨",
+      "scene": "运费又要涨 8%，本来利润就薄，客户还要压价，这货发还是不发？发亏钱，不发亏客户。",
+      "product_idea": "多渠道物流成本实时对比与风险预警系统，辅助定价决策。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184602"
+      ]
+    },
+    {
+      "name": "产品安全红线",
+      "scene": "卖个充电器被告过失杀人？专利 TRO 又冻结资金，选品真的太难了，生怕哪天收到律师函。",
+      "product_idea": "AI 驱动的上架前产品合规与 IP 风险扫描器，规避致命隐患。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184485"
+      ]
+    }
+  ],
+  "core_news_impact": [
+    {
+      "title": "美线双清包税模式终结，IOR 编号大批废止",
+      "impact_type": "cost",
+      "interpretation": "CBP 废止大批 IOR 编号，强制要求真实进口商资质，灰色清关渠道被封杀，卖家需承担更高的合规清关成本或自建美国实体。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184238"
+      ]
+    },
+    {
+      "title": "USPS 拟加征 8% 临时包裹附加费",
+      "impact_type": "cost",
+      "interpretation": "覆盖外贸旺季的运费上调将直接压缩小件商品利润，依赖轻小件走量的卖家需重新核算定价或优化包装体积。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184602"
+      ]
+    }
+  ],
+  "workflow_insights": [
+    {
+      "title": "独立站 SEO 内容布局实战",
+      "detail": "聚焦搜索意图而非单纯关键词，利用 AI 从高流量文章拓展话题，制作能快速解答用户疑问的着陆页，提升询盘转化。",
+      "tools": "AI 写作工具、Google Search Console、SIO 课程方法",
+      "source_urls": [
+        "https://ask.imiker.com/question/947238"
+      ]
+    },
+    {
+      "title": "TikTok 美区选品与分销策略",
+      "detail": " leveraging 海外仓一件代发规避库存风险，聚焦户外趋势品类（如沙滩椅），结合达人实地种草实现流量爆发。",
+      "tools": "TikTok Shop、海外仓、达人分销平台",
+      "source_urls": [
+        "https://www.52by.com/article/214240"
+      ]
+    }
+  ],
+  "raw_quotes": [
+    {
+      "text": "房子一买，手里没有粮了，心慌了……想要多挣钱的意愿比以往任何时候都强烈😂",
+      "source_label": "米课圈 @用户",
+      "source_urls": [
+        "https://ask.imiker.com/question/947191"
+      ]
+    },
+    {
+      "text": "过去那种靠钻空子、打擦边球来维持利润的玩法，路已经快走不通了。",
+      "source_label": "雨果网",
+      "source_urls": [
+        "https://www.cifnews.com/article/184602"
+      ]
+    },
+    {
+      "text": "干外贸就是不断学习、成长、赚钱的过程... 现在看客户的视角，首先是安全 然后再看有没有做生意的可能性",
+      "source_label": "米课圈 @用户",
+      "source_urls": [
+        "https://ask.imiker.com/question/947283"
+      ]
+    }
+  ]
+}
