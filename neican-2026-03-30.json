@@ -1,0 +1,96 @@
+{
+  "overall_mood": {
+    "word": "焦虑",
+    "reason": "美线 IOR 编号 20 日失效大限逼近，亚马逊 WOOT 扫号潮再起，中东局势物流受阻，合规与账号安全双重压力剧增。",
+    "source_urls": [
+      "https://www.cifnews.com/article/184238",
+      "https://www.cifnews.com/article/184540",
+      "https://www.cifnews.com/article/183813"
+    ]
+  },
+  "top_3_pain_points": [
+    {
+      "name": "美线 IOR 合规大限",
+      "scene": "3 月 20 日就要截止了，货代说 IOR 编号不行货物要滞留，老板还在催发货，急死了！",
+      "product_idea": "IOR 编号合规性自动校验与预警工具，对接 CBP 数据库实时验证进口商资质。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184238"
+      ]
+    },
+    {
+      "name": "亚马逊账号连坐",
+      "scene": "半夜收到绩效邮件，说 WOOT 违规，账号直接停用，申诉也没回音，这一年白干了。",
+      "product_idea": "促销活动合规性审计插件，扫描历史 WOOT 操作风险并生成申诉证据链。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184540"
+      ]
+    },
+    {
+      "name": "物流成本失控",
+      "scene": "USPS 又要涨 8%，中东航线还停摆，运费成本压得利润喘不过气，这货还怎么发？",
+      "product_idea": "多渠道物流成本实时对比与风险地图，自动推荐最优性价比发货方案。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184602"
+      ]
+    }
+  ],
+  "core_news_impact": [
+    {
+      "title": "美国海关 3 月 20 日废止大批 IOR 编号",
+      "impact_type": "time",
+      "interpretation": "双清包税模式终结，卖家需立即核查进口商资质，否则货物将面临滞留退运风险，清关时效大幅延长。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184238"
+      ]
+    },
+    {
+      "title": "欧盟 7 月 1 日取消 150 欧元免税阈值",
+      "impact_type": "cost",
+      "interpretation": "过渡期征收 3 欧元固定关税，低客单价直邮包裹成本激增 15-20%，迫使卖家加速布局海外仓。",
+      "source_urls": [
+        "https://www.cifnews.com/article/183648"
+      ]
+    }
+  ],
+  "workflow_insights": [
+    {
+      "title": "用 AMC 精准回捞高意向人群",
+      "detail": "利用 AMC 整合全路径数据，创建加购未购人群包，同步至广告后台定向竞价，降低 ACoS 提升转化。",
+      "tools": "亚马逊营销云 (AMC)、优麦云",
+      "source_urls": [
+        "https://www.cifnews.com/article/184622"
+      ]
+    },
+    {
+      "title": "深化搜索意图匹配提升 SEO 转化",
+      "detail": "复习 SIO 课程深化搜索意图理解，内容不再堆砌关键词，而是精准匹配用户决策阶段需求。",
+      "tools": "Google SEO、AI 内容工具、米课 SIO",
+      "source_urls": [
+        "https://ask.imiker.com/question/947230"
+      ]
+    }
+  ],
+  "raw_quotes": [
+    {
+      "text": "在公司做了快 5 年了，深刻的意识到 没有几个大客户业绩很难提升，这是现在的卡点。没有什么办法，唯有自救，尽力就好。",
+      "source_label": "米课圈",
+      "source_urls": [
+        "https://ask.imiker.com/question/947358"
+      ]
+    },
+    {
+      "text": "今天收到四张水单。我的老天奶，保佑我以后都像今天这么旺旺旺",
+      "source_label": "米课圈",
+      "source_urls": [
+        "https://ask.imiker.com/question/947085"
+      ]
+    },
+    {
+      "text": "纯手动改半托管库存，就是拿利润换辛苦。",
+      "source_label": "邦阅网",
+      "source_urls": [
+        "https://www.52by.com/article/177730"
+      ]
+    }
+  ]
+}
