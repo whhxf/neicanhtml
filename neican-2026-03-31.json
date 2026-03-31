@@ -1,0 +1,96 @@
+{
+  "overall_mood": {
+    "word": "焦虑",
+    "reason": "美国海关 5H 查验风暴叠加亚马逊 KYC 严查，货物被扣账号受限，合规成本飙升让卖家深感生存压力。",
+    "source_urls": [
+      "https://www.cifnews.com/article/183813",
+      "https://www.cifnews.com/article/184674",
+      "https://www.cifnews.com/article/184238"
+    ]
+  },
+  "top_3_pain_points": [
+    {
+      "name": "合规查验危机",
+      "scene": "货代突然通知货物被扣，要交 10 万押金赎货，老板还在催问为什么物流这么慢。",
+      "product_idea": "合规风险预警 SaaS，实时监控海关政策变动与货件状态，自动匹配合规清关方案。",
+      "source_urls": [
+        "https://www.cifnews.com/article/183813"
+      ]
+    },
+    {
+      "name": "账号审核暴雷",
+      "scene": "亚马逊突然要法人户口本，挂名法人联系不上，店铺资金冻结，几个月白干了。",
+      "product_idea": "跨境账号合规托管服务，提供真实法人变更及税务备案一站式解决方案。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184674"
+      ]
+    },
+    {
+      "name": "流量成本攀升",
+      "scene": "广告费烧了不少，转化却越来越低，老板嫌获客成本高，不让加预算，询盘还没几个。",
+      "product_idea": "AI 驱动的精准引流工具，自动优化广告素材与受众匹配，降低无效曝光。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184689"
+      ]
+    }
+  ],
+  "core_news_impact": [
+    {
+      "title": "美国海关 3 月 20 日起废止大批 IOR 编号，双清包税模式终结",
+      "impact_type": "cost",
+      "interpretation": "卖家需尽快核实货代 IOR 资质，否则货物滞留退运，合规清关成本显著增加。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184238"
+      ]
+    },
+    {
+      "title": "亚马逊搜索页新增 AI 对比模块，决策逻辑转向结构化信息",
+      "impact_type": "opportunity",
+      "interpretation": "Listing 需优化结构化数据以适配 AI 抓取，清晰定位可获对比优势，避免价格战。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184686"
+      ]
+    }
+  ],
+  "workflow_insights": [
+    {
+      "title": "利用人群选品法找到低竞争精铺产品",
+      "detail": "从特定人群（如消防员）切入，筛选长尾需求，验证上架时间与流量结构，避开大词竞争。",
+      "tools": "卖家精灵，亚马逊前台，ABA 数据",
+      "source_urls": [
+        "https://www.cifnews.com/article/183457"
+      ]
+    },
+    {
+      "title": "深耕 SEO 内容带来稳定询盘增长",
+      "detail": "撰写深度博客文章匹配搜索意图，无需额外广告，纯靠内容持续获取高质量 B 端询盘。",
+      "tools": "谷歌搜索，内容创作工具",
+      "source_urls": [
+        "https://ask.imiker.com/question/947208"
+      ]
+    }
+  ],
+  "raw_quotes": [
+    {
+      "text": "我一个店就有三票查验中，一票要退回。",
+      "source_label": "雨果网",
+      "source_urls": [
+        "https://www.cifnews.com/article/183813"
+      ]
+    },
+    {
+      "text": "我说最近一两周都怎么没有询盘呢，连个垃圾询盘都没有，原来是偷懒邮箱设置长时间没管，设置出了问题，根本收不到客户发的询盘！！真想给自己两个嘴巴子，这么低级的错误😭没有一劳永逸，重要的数据还是要定期关注！",
+      "source_label": "米课圈",
+      "source_urls": [
+        "https://ask.imiker.com/question/947376"
+      ]
+    },
+    {
+      "text": "房子一买，手里没有粮了，心慌了……想要多挣钱的意愿比以往任何时候都强烈😂",
+      "source_label": "米课圈",
+      "source_urls": [
+        "https://ask.imiker.com/question/947191"
+      ]
+    }
+  ]
+}
