@@ -1,0 +1,104 @@
+{
+  "overall_mood": {
+    "word": "焦虑",
+    "reason": "亚马逊 FBA 涨价、USPS 物流成本飙升，加之产品合规风险加剧，外贸人利润空间受挤压，普遍感到焦虑。",
+    "source_urls": [
+      "https://www.cifnews.com/article/184859",
+      "https://www.cifnews.com/article/184602"
+    ]
+  },
+  "top_3_pain_points": [
+    {
+      "name": "物流成本暴涨危机",
+      "scene": "USPS 拟加征 8% 附加费，亚马逊 FBA 配送费再涨，卖家抱怨运费吞噬了大半利润，不敢备货。",
+      "product_idea": "一款能实时整合各大物流商附加费并自动测算最终利润的报价工具。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184602",
+        "https://www.cifnews.com/article/184859"
+      ]
+    },
+    {
+      "name": "合规与侵权雷区",
+      "scene": "劣质充电器致人死亡被起诉，商标维权冻结账户，卖家担心随时因合规问题血本无归。",
+      "product_idea": "嵌入供应链系统的产品合规性自动筛查插件，预警认证缺失与侵权风险。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184485",
+        "https://www.cifnews.com/article/184088"
+      ]
+    },
+    {
+      "name": "回款与提成不确定性",
+      "scene": "客户愚人节玩笑说打款实则未付，公司又对半砍提成，业务员觉得白忙活一场，心态崩了。",
+      "product_idea": "客户信用实时查询工具及透明化的提成计算追踪系统。",
+      "source_urls": [
+        "https://ask.imiker.com/question/947528",
+        "https://ask.imiker.com/question/947541"
+      ]
+    }
+  ],
+  "core_news_impact": [
+    {
+      "title": "亚马逊欧美站 FBA 配送费新增燃油附加费",
+      "impact_type": "cost",
+      "interpretation": "北美站点增加 3.5%、欧洲站点增加 1.5% 的附加费，直接压缩卖家净利润，需重新核算定价模型。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184859"
+      ]
+    },
+    {
+      "title": "美国邮政拟加征 8% 临时包裹附加费",
+      "impact_type": "cost",
+      "interpretation": "覆盖外贸旺季的物流涨价将迫使卖家转向海外仓模式，直邮小包成本优势进一步减弱。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184602"
+      ]
+    }
+  ],
+  "workflow_insights": [
+    {
+      "title": "TikTok 短视频爆款打造全流程密码",
+      "detail": "核心逻辑是'S 级卖点 + 可视化呈现’，利用 AI 拆解全网爆款脚本，前三秒制造焦虑后给出解决方案。",
+      "tools": [
+        "AI 脚本工具",
+        "TikTok 官方 API"
+      ],
+      "source_urls": [
+        "https://www.cifnews.com/article/184812"
+      ]
+    },
+    {
+      "title": "Facebook 投流开户方式对比与选择",
+      "detail": "高风控品类或大预算投放建议找代理开户，账户权重高且有人兜底申诉，避免自开户频繁封号损失资金。",
+      "tools": [
+        "Facebook Ads Manager",
+        "代理开户服务"
+      ],
+      "source_urls": [
+        "https://www.52by.com/article/214131"
+      ]
+    }
+  ],
+  "raw_quotes": [
+    {
+      "text": "忙晕头的两个星期 但是想起对半砍的提成 越做越难过和恼火",
+      "source_label": "米课圈",
+      "source_urls": [
+        "https://ask.imiker.com/question/947541"
+      ]
+    },
+    {
+      "text": "每次客户付完钱，汇率咔咔咔往下跌",
+      "source_label": "米课圈",
+      "source_urls": [
+        "https://ask.imiker.com/question/947516"
+      ]
+    },
+    {
+      "text": "希望 UMM 和科威特两个点赶紧复航，每天都被客人追问船期和价格啊啊啊啊",
+      "source_label": "米课圈",
+      "source_urls": [
+        "https://ask.imiker.com/question/947554"
+      ]
+    }
+  ]
+}
