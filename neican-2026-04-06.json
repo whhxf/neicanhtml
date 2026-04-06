@@ -1,0 +1,107 @@
+{
+  "overall_mood": {
+    "word": "焦虑",
+    "reason": "欧盟免税时代终结、亚马逊 FBA 涨价及参考定价新规压缩利润，叠加物流成本上涨，卖家面临合规与成本双重压力。",
+    "source_urls": [
+      "https://www.cifnews.com/article/183648",
+      "https://www.cifnews.com/article/184836",
+      "https://www.cifnews.com/article/184602"
+    ]
+  },
+  "top_3_pain_points": [
+    {
+      "name": "欧盟关税成本激增",
+      "scene": "低客单价薄利润的 3C 配件、日用快消等品类卖家，3 欧元固定关税将大幅压缩利润，部分低毛利商品甚至会亏本。",
+      "product_idea": "集成欧盟新税则与物流成本的实时利润测算工具，自动预警亏损 SKU。",
+      "source_urls": [
+        "https://www.cifnews.com/article/183648",
+        "https://www.cifnews.com/article/184863"
+      ]
+    },
+    {
+      "name": "平台合规与定价受限",
+      "scene": "亚马逊参考定价新规生效后，划线价不能随便填，长期挂折扣会被系统认定为常规价，以后想恢复原价搞促销系统不认了。",
+      "product_idea": "亚马逊定价合规监控插件，实时追踪价格历史记录与参考价有效性。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184836",
+        "https://www.cifnews.com/article/184674"
+      ]
+    },
+    {
+      "name": "业绩压力与收入不确定性",
+      "scene": "忙晕头的两个星期，但是想起对半砍的提成，越做越难过和恼火；昨天客户说打款，今天一早查手机没有任何回复。",
+      "product_idea": "外贸业务员佣金透明化管理系统与客户付款进度自动追踪工具。",
+      "source_urls": [
+        "https://ask.imiker.com/question/947541",
+        "https://ask.imiker.com/question/947528"
+      ]
+    }
+  ],
+  "core_news_impact": [
+    {
+      "title": "欧盟 7 月 1 日起废除 150 欧元小包裹免税政策",
+      "impact_type": "cost",
+      "interpretation": "过渡期内每件小包裹征收 3 欧元固定关税，低价直邮模式成本增加 15-20%，倒逼卖家布局海外仓或提升客单价。",
+      "source_urls": [
+        "https://www.cifnews.com/article/183648"
+      ]
+    },
+    {
+      "title": "亚马逊美国站与英国站更新参考定价政策",
+      "impact_type": "cost",
+      "interpretation": "4 月 23 日起建议零售价需有真实成交支撑，5 月 18 日起常规价格计算包含促销价，虚假折扣与长期低价推新玩法失效。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184836"
+      ]
+    }
+  ],
+  "workflow_insights": [
+    {
+      "title": "TikTok 短视频爆款 AI 赋能流程",
+      "detail": "利用 AI 拆解全网爆款视频脚本与卖点，生成适配海外语言习惯的文案，通过自制内容测试种子脚本后再交给达人放大流量。",
+      "tools": [
+        "AI 脚本生成工具",
+        "TikTok 官方 API",
+        "第三方选品工具"
+      ],
+      "source_urls": [
+        "https://www.cifnews.com/article/184882"
+      ]
+    },
+    {
+      "title": "Facebook 广告账户稳定投放策略",
+      "detail": "高风控品类或大预算投放优先选择代理开户获取高权重企业户/海外户，避免个人户频繁封号导致资金与数据损失。",
+      "tools": [
+        "Facebook 广告管理器",
+        "官方授权代理通道",
+        "风控监控工具"
+      ],
+      "source_urls": [
+        "https://www.52by.com/article/214916"
+      ]
+    }
+  ],
+  "raw_quotes": [
+    {
+      "text": "忙晕头的两个星期，但是想起对半砍的提成，越做越难过和恼火",
+      "source_label": "米课圈 @用户 947541",
+      "source_urls": [
+        "https://ask.imiker.com/question/947541"
+      ]
+    },
+    {
+      "text": "昨天客户说打款，今天一早查手机没有任何回复，Happy April Fool's Day !",
+      "source_label": "米课圈 @用户 947528",
+      "source_urls": [
+        "https://ask.imiker.com/question/947528"
+      ]
+    },
+    {
+      "text": "低客单价薄利润的 3C 配件、日用快消等品类卖家，3 欧元固定关税将大幅压缩利润，部分低毛利商品甚至会亏本",
+      "source_label": "雨果网 @跨境电商卖家",
+      "source_urls": [
+        "https://www.cifnews.com/article/183648"
+      ]
+    }
+  ]
+}
