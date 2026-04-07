@@ -1,0 +1,99 @@
+{
+  "overall_mood": {
+    "word": "焦虑",
+    "reason": "亚马逊加收燃油费、欧盟取消免税阈值及海外仓暴雷，导致卖家成本激增且资产安全风险加大，普遍感到焦虑。",
+    "source_urls": [
+      "https://www.cifnews.com/article/184889",
+      "https://www.cifnews.com/article/183648",
+      "https://www.52by.com/article/214977"
+    ]
+  },
+  "top_3_pain_points": [
+    {
+      "name": "利润空间被压缩",
+      "scene": "亚马逊配送费新增附加费，欧盟小包裹也要交税，老板还在催 KPI，算完账发现白忙活一场。",
+      "product_idea": "实时利润测算工具，自动同步平台费率与各国税务政策，预警负毛利 SKU。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184889",
+        "https://www.cifnews.com/article/183648"
+      ]
+    },
+    {
+      "name": "海外仓安全危机",
+      "scene": "旺季刚到，仓库没了，货也拿不出来，链接直接断货，BSR 排名一夜崩盘。",
+      "product_idea": "海外仓资信评级平台，提供货物保险与资金托管服务，确保货权安全。",
+      "source_urls": [
+        "https://www.52by.com/article/214977",
+        "https://www.cifnews.com/article/183813"
+      ]
+    },
+    {
+      "name": "合规与账号风控",
+      "scene": "亚马逊 KYC 突袭审核要户口本，产品稍有不慎就被起诉，AI 工具还用得提心吊胆怕泄露。",
+      "product_idea": "一站式合规自查系统，扫描 listing 侵权风险并管理账号资质文件有效期。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184674",
+        "https://www.cifnews.com/article/184485"
+      ]
+    }
+  ],
+  "core_news_impact": [
+    {
+      "title": "亚马逊欧美站新增燃油附加费，4 月 17 日起执行",
+      "impact_type": "cost",
+      "interpretation": "北美站配送费增加 3.5%，欧洲站增加 1.5%，直接抬高履约成本，卖家需重新核算定价或压缩利润。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184889"
+      ]
+    },
+    {
+      "title": "欧盟取消 150 欧元免税阈值，7 月起征收固定关税",
+      "impact_type": "cost",
+      "interpretation": "过渡期内≤150 欧元包裹统一征收 3 欧元关税，低价直邮模式利润被击穿，倒逼卖家布局海外仓。",
+      "source_urls": [
+        "https://www.cifnews.com/article/183648"
+      ]
+    }
+  ],
+  "workflow_insights": [
+    {
+      "title": "TikTok 爆款短视频打造全流程密码",
+      "detail": "抓住“一个 S 级卖点 + 可视化呈现”逻辑，利用 AI 拆解爆款脚本结构，通过自制内容测试迭代后再放大达人流量。",
+      "tools": "AI 脚本工具、TikTok 官方 API",
+      "source_urls": [
+        "https://www.cifnews.com/article/184882"
+      ]
+    },
+    {
+      "title": "食品饮料新手低成本搭建独立站指南",
+      "detail": "优先选择 SaaS 平台降低启动成本，重点展示成分认证与冷链物流信息，通过食谱内容营销建立信任闭环。",
+      "tools": "Ueeshop/Shopify、Google Analytics",
+      "source_urls": [
+        "https://www.52by.com/article/213732"
+      ]
+    }
+  ],
+  "raw_quotes": [
+    {
+      "text": "凌晨一点半，还在逐一审阅 15 封客户邮件，终于等来一封回复。步履不停，希望总藏在下一次沟通里，这便是创业者的坚守与热忱。",
+      "source_label": "米课圈 @用户 947717",
+      "source_urls": [
+        "https://ask.imiker.com/question/947717"
+      ]
+    },
+    {
+      "text": "越干越想辞职，我做助理现在，助理就应该被他们当做狗一样",
+      "source_label": "米课圈 @用户 947588",
+      "source_urls": [
+        "https://ask.imiker.com/question/947588"
+      ]
+    },
+    {
+      "text": "旺季刚到，仓库没了，货也拿不出来，链接直接断货，BSR 排名一夜崩盘。",
+      "source_label": "邦阅网",
+      "source_urls": [
+        "https://www.52by.com/article/214977"
+      ]
+    }
+  ]
+}
