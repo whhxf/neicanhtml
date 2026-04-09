@@ -1,0 +1,107 @@
+{
+  "overall_mood": {
+    "word": "焦虑",
+    "reason": "税务稽查大案引爆合规恐慌，中东局势导致物流成本飙升，亚马逊 FBA  fees 再次上涨，多重压力叠加让外贸人普遍感到利润空间被压缩，对未来不确定性担忧加剧。",
+    "source_urls": [
+      "https://www.cifnews.com/article/184783",
+      "https://www.cifnews.com/article/183813",
+      "https://www.cifnews.com/article/184859"
+    ]
+  },
+  "top_3_pain_points": [
+    {
+      "name": "税务合规与私账风险",
+      "scene": "深圳 3C 大卖因私账收款 1.2 亿被稽查，补税罚款超 2800 万，老板恐负刑责。卖家担心平台数据直连税务，过往“灰色操作”无处遁形。",
+      "product_idea": "跨境财税合规 SaaS，自动比对平台销售、报关与资金流数据，预警税务风险并提供合规申报方案。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184783",
+        "https://www.52by.com/article/215176"
+      ]
+    },
+    {
+      "name": "物流成本与时效失控",
+      "scene": "中东战局导致霍尔木兹海峡通行受阻，海运停摆、运费暴涨；同时亚马逊欧美站 FBA 配送费新增燃油附加费，卖家利润进一步被侵蚀。",
+      "product_idea": "全球物流风险实时监控工具，提供替代路线规划与成本测算，帮助卖家在局势动荡时快速切换物流方案。",
+      "source_urls": [
+        "https://www.cifnews.com/article/183813",
+        "https://www.cifnews.com/article/184859"
+      ]
+    },
+    {
+      "name": "知识产权侵权TRO",
+      "scene": "Paul Collins 版权画、梅西商标维权发起批量起诉，53 家店面临冻结。卖家担心日常选品和图片使用不慎触发侵权，导致资金链断裂。",
+      "product_idea": "AI 驱动的Listing 侵权预检工具，上传图片和文案即可自动比对全球商标版权数据库，提前规避风险。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184913",
+        "https://www.cifnews.com/article/184683"
+      ]
+    }
+  ],
+  "core_news_impact": [
+    {
+      "title": "亚马逊欧美站 FBA 配送费新增燃油附加费",
+      "impact_type": "cost",
+      "interpretation": "4 月 17 日起北美站增加 3.5%、欧洲站增加 1.5% 的附加费。直接增加履约成本，卖家需重新核算定价模型，或通过优化包装、使用 AWD 等方式抵消部分影响。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184859"
+      ]
+    },
+    {
+      "title": "深圳 3C 大卖私账收款 1.2 亿被稽查",
+      "impact_type": "cost",
+      "interpretation": "税务监管进入“全透明”时代，平台数据与税务直连。过往通过私账隐匿收入、买单出口等操作面临极高刑事风险，合规成本将成为刚性支出。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184783"
+      ]
+    }
+  ],
+  "workflow_insights": [
+    {
+      "title": "TikTok 直播专线搭建与避坑",
+      "detail": "普通网络无法支撑稳定直播，需选用 SD-WAN 专线。核心是 IP 质量（必须原生住宅 IP）、网络稳定性（延迟、丢包率）及带宽真实性（手机≥5M，电脑≥10M）。避免共享 IP 导致封号。",
+      "tools": [
+        "SD-WAN 专线",
+        "原生住宅 IP",
+        "CPE 硬件设备"
+      ],
+      "source_urls": [
+        "https://www.52by.com/article/215173"
+      ]
+    },
+    {
+      "title": "亚马逊欧洲站数据化选品与物流布局",
+      "detail": "利用“商机探测器”发掘欧洲细分需求（如防水宠物地垫）。物流采用“自有海外仓+FBA+ 第三方物流”组合，大件商品加入 MSF 计划获取 Prime 标识，利用 Pan-EU 简化多国库存管理。",
+      "tools": [
+        "亚马逊商机探测器",
+        "Pan-EU 物流",
+        "MSF 配送计划"
+      ],
+      "source_urls": [
+        "https://www.cifnews.com/article/184858"
+      ]
+    }
+  ],
+  "raw_quotes": [
+    {
+      "text": "最近全是 5 千至 1.5 万美元的碎单，整理 PI 都要小助理帮忙了。什么时候给来一个大票的！一张就顶上 10 个小碎单。做文件都要累死了",
+      "source_label": "米课圈 @用户 947829",
+      "source_urls": [
+        "https://ask.imiker.com/question/947829"
+      ]
+    },
+    {
+      "text": "压力很大，很大，一直在想离职边缘，我是不是该安静的走开，还是在这里等待",
+      "source_label": "米课圈 @用户 947817",
+      "source_urls": [
+        "https://ask.imiker.com/question/947817"
+      ]
+    },
+    {
+      "text": "很多卖家不懂技术，直接把 API Key 明文写在配置文件里，甚至发到群里求助。一旦泄露，别人可以用你的账户消耗大量费用，我自己就经历过需要紧急轮换被暴露 token 的情况。",
+      "source_label": "雨果网 @LinkFox AI 行业顾问",
+      "source_urls": [
+        "https://www.cifnews.com/article/184088"
+      ]
+    }
+  ]
+}
