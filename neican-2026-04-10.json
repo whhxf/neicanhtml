@@ -1,0 +1,99 @@
+{
+  "overall_mood": {
+    "word": "焦虑",
+    "reason": "中东局势导致物流成本飙升，Temu 资质严查引发合规恐慌，加上亚马逊 FBA 涨价与版权诉讼频发，外贸人面临成本与风险双重压力。",
+    "source_urls": [
+      "https://www.cifnews.com/article/183813",
+      "https://www.cifnews.com/article/184939"
+    ]
+  },
+  "top_3_pain_points": [
+    {
+      "name": "合规资质失效危机",
+      "scene": "资质报告刚提交就被判无效，平台罚款标准不透明，账号随时可能被封，检测费也全打了水漂。",
+      "product_idea": "合规风险预警 SaaS，实时监控平台政策变动与资质有效期，提供官方认可检测机构名录。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184939",
+        "https://www.cifnews.com/article/184858",
+        "https://www.cifnews.com/article/183648"
+      ]
+    },
+    {
+      "name": "物流成本与时效双杀",
+      "scene": "中东战火导致运费暴涨且时效无保障，亚马逊又通知 FBA 配送费要涨，利润被吃光。",
+      "product_idea": "多渠道物流成本对比与风险预警工具，自动计算含战争附加费的真实落地成本。",
+      "source_urls": [
+        "https://www.cifnews.com/article/183813",
+        "https://www.cifnews.com/article/184859"
+      ]
+    },
+    {
+      "name": "碎单疲劳与流量下滑",
+      "scene": "流量下滑询盘质量差，全是几千美金碎单，做文件累死还赚不到钱，什么时候给来一个大票的。",
+      "product_idea": "小单聚合管理系统，自动化处理 PI 与单证，降低小额订单操作成本。",
+      "source_urls": [
+        "https://ask.imiker.com/question/947829",
+        "https://ask.imiker.com/question/947838"
+      ]
+    }
+  ],
+  "core_news_impact": [
+    {
+      "title": "Temu 掀起资质报告严查风暴，合格报告亦被判无效",
+      "impact_type": "cost",
+      "interpretation": "卖家需重新检测并承担高额费用，面临罚款与封店风险，合规成本大幅上升。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184939"
+      ]
+    },
+    {
+      "title": "亚马逊欧美站 FBA 配送费新增燃油及物流附加费",
+      "impact_type": "cost",
+      "interpretation": "北美增加 3.5%，欧洲增加 1.5%，直接压缩卖家利润空间，需重新核算定价。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184859"
+      ]
+    }
+  ],
+  "workflow_insights": [
+    {
+      "title": "安克创新营收破 300 亿，研发投入占比近 10%",
+      "detail": "坚持高研发投入与品牌建设，通过亚马逊全渠道布局实现全球化增长，而非单纯铺货。",
+      "tools": "亚马逊品牌注册，Vine 计划，线下零售渠道",
+      "source_urls": [
+        "https://www.cifnews.com/article/184979"
+      ]
+    },
+    {
+      "title": "美妆出海借垂直领域 TikTok 达人营销破局同质化",
+      "detail": "从泛流量转向微垂直达人矩阵，通过内容密度建立细分赛道心智垄断，降低价格敏感度。",
+      "tools": "TikTok 达人，内容矩阵，Nox 聚星",
+      "source_urls": [
+        "https://www.52by.com/article/215226"
+      ]
+    }
+  ],
+  "raw_quotes": [
+    {
+      "text": "最近全是 5 千至 1.5 万美元的碎单，整理 PI 都要小助理帮忙了。什么时候给来一个大票的！一张就顶上 10 个小碎单。做文件都要累死了",
+      "source_label": "米课圈 @用户",
+      "source_urls": [
+        "https://ask.imiker.com/question/947829"
+      ]
+    },
+    {
+      "text": "压力很大，很大，一直在想离职边缘，我是不是该安静的走开，还是在这里等待",
+      "source_label": "米课圈 @用户",
+      "source_urls": [
+        "https://ask.imiker.com/question/947817"
+      ]
+    },
+    {
+      "text": "中东战局的突发，让布局当地的跨境卖家陷入了经营的不确定性中，不同布局深度、库存储备的卖家，所受影响呈现明显分化",
+      "source_label": "雨果网",
+      "source_urls": [
+        "https://www.cifnews.com/article/183813"
+      ]
+    }
+  ]
+}
