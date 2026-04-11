@@ -1,0 +1,108 @@
+{
+  "overall_mood": {
+    "word": "焦虑",
+    "reason": "中东战事致物流成本飙升，欧盟税改压缩利润，合规严查与碎单内耗让外贸人普遍焦虑。",
+    "source_urls": [
+      "https://www.cifnews.com/article/183813",
+      "https://www.cifnews.com/article/183648",
+      "https://ask.imiker.com/question/947817"
+    ]
+  },
+  "top_3_pain_points": [
+    {
+      "name": "合规与账号风险",
+      "scene": "Temu 资质报告刚过审又失效，FB 广告户充值后被封，337 调查让库存变负资产，合规成本不可控。",
+      "product_idea": "全平台合规风险实时监控与预警 SaaS，集成资质有效期管理与账号健康度评分。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184939",
+        "https://www.52by.com/article/215456",
+        "https://www.52by.com/article/215413"
+      ]
+    },
+    {
+      "name": "物流与成本暴涨",
+      "scene": "霍尔木兹海峡反复关闭，中东航线运费涨 5 倍，欧盟取消免税阈值，低客单价产品利润被吃光。",
+      "product_idea": "全球物流风险地图与替代路线智能规划工具，实时计算关税与运费成本变动。",
+      "source_urls": [
+        "https://www.cifnews.com/article/183813",
+        "https://www.52by.com/article/215433",
+        "https://www.cifnews.com/article/183648"
+      ]
+    },
+    {
+      "name": "利润压缩与碎单内耗",
+      "scene": "报价 0.001 客户还价 0.0005，全是几千美金碎单，整理 PI 累死，印度客户回款慢至 4 天。",
+      "product_idea": "小额订单自动化处理工具，一键生成 PI/发票，集成多渠道收款与账期风险管理。",
+      "source_urls": [
+        "https://ask.imiker.com/question/947891",
+        "https://ask.imiker.com/question/947829",
+        "https://ask.imiker.com/question/947925"
+      ]
+    }
+  ],
+  "core_news_impact": [
+    {
+      "title": "欧盟取消 150 欧元免税阈值，过渡期征收 3 欧元固定关税",
+      "impact_type": "cost",
+      "interpretation": "低客单价直邮模式成本增加 15-20%，低价跑量型卖家利润被压缩，需加速布局海外仓或提升客单价。",
+      "source_urls": [
+        "https://www.cifnews.com/article/183648"
+      ]
+    },
+    {
+      "title": "美国 337 调查打击智能显示行业，专利费吞噬利润",
+      "impact_type": "cost",
+      "interpretation": "智能电视等产品专利费占成本 8%，远超净利润，库存可能因排除令被强制销毁，需紧急排查供应链技术溯源。",
+      "source_urls": [
+        "https://www.52by.com/article/215456"
+      ]
+    }
+  ],
+  "workflow_insights": [
+    {
+      "title": "AI 建站提效：ZeroY 输入提示词生成页面",
+      "detail": "不再手动拖拽 Elementor，将生意逻辑总结为提示词输入 ZeroY，AI 自动生成页面，增删改查更便捷，小白也能快速建站。",
+      "tools": [
+        "ZeroY",
+        "GPT"
+      ],
+      "source_urls": [
+        "https://ask.imiker.com/question/947966"
+      ]
+    },
+    {
+      "title": "TEMU 批量管理 SKU 分类",
+      "detail": "使用第三方工具批量填写和同步 SKU 分类，避免后台逐个编辑，特殊类目也能处理，每月节省 20 小时机械操作时间。",
+      "tools": [
+        "凌风工具箱",
+        "TEMU 后台"
+      ],
+      "source_urls": [
+        "https://www.52by.com/article/215438"
+      ]
+    }
+  ],
+  "raw_quotes": [
+    {
+      "text": "报价 0.001，客户还我 0.0005，报了个寂寞。",
+      "source_label": "米课圈",
+      "source_urls": [
+        "https://ask.imiker.com/question/947891"
+      ]
+    },
+    {
+      "text": "最近全是 5 千至 1.5 万美元的碎单，整理 PI 都要小助理帮忙了。什么时候给来一个大票的！",
+      "source_label": "米课圈",
+      "source_urls": [
+        "https://ask.imiker.com/question/947829"
+      ]
+    },
+    {
+      "text": "压力很大，很大，一直在想离职边缘，我是不是该安静的走开，还是在这里等待",
+      "source_label": "米课圈",
+      "source_urls": [
+        "https://ask.imiker.com/question/947817"
+      ]
+    }
+  ]
+}
