@@ -1,0 +1,105 @@
+{
+  "overall_mood": {
+    "word": "焦虑",
+    "reason": "Temu 资质严查致商品下架，亚马逊 FBA 费用上涨压缩利润，印度回款变慢加剧资金压力，合规与成本双重焦虑笼罩行业。",
+    "source_urls": [
+      "https://www.cifnews.com/article/184939",
+      "https://www.cifnews.com/article/184859"
+    ]
+  },
+  "top_3_pain_points": [
+    {
+      "name": "平台合规资质危机",
+      "scene": "我们特意找的是平台自己推荐的服务商，检测流程、报告规范都按要求来做，现在突然说不合格，商品卖不了，检测费也全打了水漂。",
+      "product_idea": "跨境合规 SaaS 平台，实时同步各平台最新资质要求，提供可信检测机构白名单及报告预审功能。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184939",
+        "https://www.52by.com/article/215474"
+      ]
+    },
+    {
+      "name": "跨境回款与资金流压力",
+      "scene": "从今年开始印度客户的钱到账慢了，要花至少 4 天，都不知道是什么原因，客户又要先备货，不备货又会影响交期。",
+      "product_idea": "针对高风险地区的供应链金融工具，提供基于订单的提前垫资服务，缩短回款周期。",
+      "source_urls": [
+        "https://ask.imiker.com/question/947925",
+        "https://www.cifnews.com/article/184859"
+      ]
+    },
+    {
+      "name": "广告账户封禁与流量焦虑",
+      "scene": "普通户刚跑出一点正向数据，主页突然被封，前期所有的运营、测品、投放成本全部打水漂，大促节点想冲量却被日耗限额卡死。",
+      "product_idea": "海外企业广告账户管理服务，提供多主页绑定、域名灵活切换及风控预警，保障投放连续性。",
+      "source_urls": [
+        "https://www.52by.com/article/215413",
+        "https://www.52by.com/article/215452"
+      ]
+    }
+  ],
+  "core_news_impact": [
+    {
+      "title": "亚马逊欧美站 FBA 配送费新增燃油附加费",
+      "impact_type": "cost",
+      "interpretation": "北美站 FBA 配送费增加 3.5%，欧洲站增加 1.5%，直接挤压卖家利润空间，需重新核算定价模型或优化物流渠道。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184859"
+      ]
+    },
+    {
+      "title": "美国发起 337 调查涉及智能显示行业",
+      "impact_type": "cost",
+      "interpretation": "智能显示产品专利费可能占成本 8%，应诉费用高昂，库存面临销毁风险，迫使企业重构供应链技术溯源与合规体系。",
+      "source_urls": [
+        "https://www.52by.com/article/215456"
+      ]
+    }
+  ],
+  "workflow_insights": [
+    {
+      "title": "利用 AI 工具 ZeroY 快速搭建外贸独立站",
+      "detail": "在 ZeroY 中输入生意提示词生成页面结构，替代传统拖拽操作，利用 AI 组织产品信息和优化转化路径，降低技术门槛。",
+      "tools": [
+        "ZeroY",
+        "GPT",
+        "ACF Planner"
+      ],
+      "source_urls": [
+        "https://ask.imiker.com/question/947976"
+      ]
+    },
+    {
+      "title": "使用海外企业户提升 Facebook 广告稳定性",
+      "detail": "切换至海外正规企业户，支持绑定多个合规主页和灵活切换域名，避免单主页封禁导致账户报废，提升预算限额和容错率。",
+      "tools": [
+        "Facebook Business Manager",
+        "海外企业账户"
+      ],
+      "source_urls": [
+        "https://www.52by.com/article/215413"
+      ]
+    }
+  ],
+  "raw_quotes": [
+    {
+      "text": "从今年开始印度客户的钱到账慢了，要花至少 4 天，都不知道是什么原因，客户又要先备货，不备货又会影响交期。",
+      "source_label": "米课圈",
+      "source_urls": [
+        "https://ask.imiker.com/question/947925"
+      ]
+    },
+    {
+      "text": "我们特意找的是平台自己推荐的服务商，检测流程、报告规范都按要求来做，现在突然说不合格，商品卖不了，检测费也全打了水漂。",
+      "source_label": "雨果网",
+      "source_urls": [
+        "https://www.cifnews.com/article/184939"
+      ]
+    },
+    {
+      "text": "每当很内耗和迷茫的时候，就拼命的开发客户",
+      "source_label": "米课圈",
+      "source_urls": [
+        "https://ask.imiker.com/question/948119"
+      ]
+    }
+  ]
+}
