@@ -1,0 +1,107 @@
+{
+  "overall_mood": {
+    "word": "焦虑",
+    "reason": "Temu 资质严查致报告失效罚款，亚马逊 FBA 涨价压缩利润，税务稽查案例频发，外贸人合规与成本压力剧增。",
+    "source_urls": [
+      "https://www.cifnews.com/article/184939",
+      "https://www.cifnews.com/article/184859",
+      "https://www.cifnews.com/article/184783"
+    ]
+  },
+  "top_3_pain_points": [
+    {
+      "name": "平台合规信任危机",
+      "scene": "我们特意找的是平台自己推荐的服务商，检测流程、报告规范都按要求来做，现在突然说不合格，商品卖不了，检测费也全打了水漂。",
+      "product_idea": "资质合规预警 SaaS，实时监控平台认可机构名录变动，避免无效检测。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184939",
+        "https://www.cifnews.com/article/184783"
+      ]
+    },
+    {
+      "name": "物流隐形成本与失联",
+      "scene": "报价看着便宜，发货后各种附加费层出不穷，货物发出去就失联，查件找不到人，问一句回一句。",
+      "product_idea": "物流透明化比价平台，内置货代信用黑名单与实时轨迹追踪。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184859",
+        "https://ask.imiker.com/question/948189"
+      ]
+    },
+    {
+      "name": "广告账户封禁风险",
+      "scene": "直接定向东南亚重点国家投放 Slots 广告=账户必封、投放必亏，网传白户均为虚假信息。",
+      "product_idea": "广告账户合规链路诊断工具，自动检测封号风险点与 IP 环境。",
+      "source_urls": [
+        "https://www.52by.com/article/215495",
+        "https://www.52by.com/article/215490"
+      ]
+    }
+  ],
+  "core_news_impact": [
+    {
+      "title": "Temu 严查资质报告，大量卖家报告失效面临罚款",
+      "impact_type": "cost",
+      "interpretation": "卖家需重新委托合规机构检测，面临高额费用及潜在罚款，存量商品可能下架，合规成本大幅增加。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184939"
+      ]
+    },
+    {
+      "title": "亚马逊欧美站 FBA 配送费新增燃油附加费",
+      "impact_type": "cost",
+      "interpretation": "北美站点增加 3.5%，欧洲站点增加 1.5%，卖家需重新核算定价策略或通过优化包装抵消成本上涨。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184859"
+      ]
+    }
+  ],
+  "workflow_insights": [
+    {
+      "title": "颜 Sir 线下建站课：AI 工具赋能外贸独立站搭建",
+      "detail": "利用 ZeroY 输入生意提示词生成页面，结合 ACF planner 梳理数据结构，降低技术门槛，实现小白快速建站。",
+      "tools": [
+        "ZeroY",
+        "ACF planner",
+        "AI (GPT)"
+      ],
+      "source_urls": [
+        "https://ask.imiker.com/question/947966"
+      ]
+    },
+    {
+      "title": "东南亚 Slots 游戏 Meta+Google 合规代投链路",
+      "detail": "采用海外户 + 独立落地页 + 私域转化链路，规避平台博彩禁令，通过去博彩化素材与本地化文案提升 ROI。",
+      "tools": [
+        "Meta",
+        "Google",
+        "Independent Landing Page"
+      ],
+      "source_urls": [
+        "https://www.52by.com/article/215495"
+      ]
+    }
+  ],
+  "raw_quotes": [
+    {
+      "text": "哥，这批货差点又要赔了。",
+      "source_label": "米课圈 @用户",
+      "source_urls": [
+        "https://ask.imiker.com/question/948165"
+      ]
+    },
+    {
+      "text": "我们特意找的是平台自己推荐的服务商，检测流程、报告规范都按要求来做，现在突然说不合格，商品卖不了，检测费也全打了水漂。",
+      "source_label": "雨果网",
+      "source_urls": [
+        "https://www.cifnews.com/article/184939"
+      ]
+    },
+    {
+      "text": "真的只有来线下听颜 Sir 的课，才知道 AI 建站到底能快成什么样",
+      "source_label": "米课圈",
+      "source_urls": [
+        "https://ask.imiker.com/question/948082"
+      ]
+    }
+  ]
+}
