@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>外贸内参 · 2026-04-14</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-bg: #faf9f7;
+            --color-paper: #ffffff;
+            --color-ink: #1a1a2e;
+            --color-ink-light: #5d6d7e;
+            --color-accent: #d4a373;
+            --color-accent-dark: #b8935f;
+            --color-pain: #c0392b;
+            --color-news: #5d6d7e;
+            --color-workflow: #2c3e50;
+            --color-quote: #f4f1ea;
+            --border-light: #e8e4de;
+            --border-medium: #d4cfc7;
+            --shadow-subtle: 0 1px 3px rgba(0,0,0,0.04);
+            --shadow-card: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Noto Serif SC', 'Songti SC', Georgia, serif;
+            line-height: 1.75;
+            color: var(--color-ink);
+            background: var(--color-bg);
+            font-size: 15px;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+
+        /* Header - 报纸头风格 */
+        .masthead {
+            text-align: center;
+            padding-bottom: 32px;
+            border-bottom: 3px double var(--color-ink);
+            margin-bottom: 48px;
+        }
+
+        .masthead::before {
+            content: '';
+            display: block;
+            height: 4px;
+            background: linear-gradient(90deg, var(--color-ink) 0%, var(--color-accent) 50%, var(--color-ink) 100%);
+            margin: -60px -24px 40px -24px;
+        }
+
+        .publication-title {
+            font-family: 'Playfair Display', 'Noto Serif SC', serif;
+            font-size: 42px;
+            font-weight: 700;
+            letter-spacing: 8px;
+            color: var(--color-ink);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+
+        .publication-subtitle {
+            font-size: 12px;
+            color: var(--color-ink-light);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+
+        .issue-info {
+            font-size: 13px;
+            color: var(--color-ink-light);
+            border-top: 1px solid var(--border-light);
+            border-bottom: 1px solid var(--border-light);
+            padding: 8px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Mood Section - 大字报风格 */
+        .mood-section {
+            margin-bottom: 56px;
+            background: var(--color-ink);
+            color: white;
+            padding: 40px;
+            position: relative;
+        }
+
+        .mood-section::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 6px;
+            background: #c0392b;
+        }
+
+        .mood-label {
+            font-size: 11px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            opacity: 0.7;
+            margin-bottom: 16px;
+        }
+
+        .mood-word {
+            font-family: 'Playfair Display', serif;
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 20px;
+            color: #c0392b;
+        }
+
+        .mood-reason {
+            font-size: 16px;
+            line-height: 1.6;
+            opacity: 0.9;
+            max-width: 90%;
+        }
+
+        .mood-sources {
+            margin-top: 24px;
+            font-size: 12px;
+            opacity: 0.6;
+        }
+
+        .mood-sources a {
+            color: white;
+            text-decoration: none;
+            border-bottom: 1px dotted rgba(255,255,255,0.4);
+            margin-left: 8px;
+        }
+
+        .mood-sources a:hover {
+            border-bottom-color: white;
+        }
+
+        /* Section Headers */
+        .section-header {
+            display: flex;
+            align-items: baseline;
+            margin-bottom: 24px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--color-ink);
+        }
+
+        .section-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--color-accent);
+            margin-right: 12px;
+            line-height: 1;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .section-subtitle {
+            font-size: 12px;
+            color: var(--color-ink-light);
+            margin-left: auto;
+            font-weight: 400;
+        }
+
+        /* Cards */
+        .pain-card, .news-card, .workflow-card {
+            background: var(--color-paper);
+            padding: 24px;
+            margin-bottom: 16px;
+            box-shadow: var(--shadow-subtle);
+            border: 1px solid var(--border-light);
+            transition: all 0.2s ease;
+        }
+
+        .pain-card:hover, .news-card:hover, .workflow-card:hover {
+            box-shadow: var(--shadow-card);
+            transform: translateY(-1px);
+        }
+
+        .pain-card {
+            border-left: 4px solid var(--color-pain);
+        }
+
+        .card-meta {
+            font-size: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--color-ink-light);
+            margin-bottom: 8px;
+        }
+
+        .pain-title, .news-title, .workflow-title {
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+
+        .pain-title {
+            color: var(--color-pain);
+        }
+
+        .pain-scene {
+            color: var(--color-ink);
+            margin-bottom: 16px;
+            line-height: 1.7;
+        }
+
+        .pain-product {
+            background: var(--color-bg);
+            padding: 16px;
+            font-size: 14px;
+            color: var(--color-ink-light);
+            border-left: 2px solid var(--color-accent);
+        }
+
+        .pain-product strong {
+            color: var(--color-accent-dark);
+            font-weight: 600;
+        }
+
+        /* News Cards */
+        .news-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .impact-tag {
+            font-size: 10px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding: 4px 8px;
+            border: 1px solid;
+        }
+
+        .tag-cost { color: var(--color-pain); border-color: var(--color-pain); }
+        .tag-time { color: var(--color-news); border-color: var(--color-news); }
+        .tag-opportunity { color: #27ae60; border-color: #27ae60; }
+
+        .news-date {
+            font-size: 11px;
+            color: var(--color-ink-light);
+        }
+
+        .news-title a {
+            color: var(--color-ink);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        .news-title a:hover {
+            border-bottom-color: var(--color-ink);
+        }
+
+        .news-interpretation {
+            color: var(--color-ink-light);
+            font-size: 14px;
+            line-height: 1.6;
+            margin-top: 8px;
+        }
+
+        /* Workflow */
+        .workflow-card {
+            border-left: 4px solid var(--color-workflow);
+        }
+
+        .workflow-title {
+            color: var(--color-workflow);
+        }
+
+        .workflow-detail {
+            color: var(--color-ink);
+            margin-bottom: 12px;
+            line-height: 1.7;
+        }
+
+        .workflow-tools {
+            font-size: 13px;
+            color: var(--color-ink-light);
+        }
+
+        .tools-label {
+            font-weight: 600;
+            color: var(--color-accent-dark);
+            margin-right: 8px;
+        }
+
+        /* Quote Cards */
+        .quotes-grid {
+            display: grid;
+            gap: 20px;
+        }
+
+        .quote-card {
+            background: var(--color-quote);
+            padding: 24px;
+            border: 1px solid var(--border-medium);
+            box-shadow: 2px 2px 0 rgba(0,0,0,0.06);
+            position: relative;
+        }
+
+        .quote-card::before {
+            content: '"';
+            position: absolute;
+            top: 8px;
+            left: 16px;
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            color: var(--color-accent);
+            opacity: 0.4;
+            line-height: 1;
+        }
+
+        .quote-text {
+            font-size: 15px;
+            line-height: 1.8;
+            color: var(--color-ink);
+            position: relative;
+            z-index: 1;
+            margin-left: 8px;
+        }
+
+        .quote-footer {
+            margin-top: 16px;
+            padding-top: 12px;
+            border-top: 1px dashed var(--border-medium);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+            color: var(--color-ink-light);
+        }
+
+        .quote-source-label {
+            font-weight: 600;
+        }
+
+        /* Card Footer */
+        .card-footer {
+            margin-top: 16px;
+            padding-top: 12px;
+            border-top: 1px solid var(--border-light);
+            font-size: 11px;
+            color: var(--color-ink-light);
+            letter-spacing: 0.5px;
+        }
+
+        .source-links a {
+            color: var(--color-ink-light);
+            text-decoration: none;
+            margin-left: 4px;
+            padding: 2px 6px;
+            border: 1px solid var(--border-medium);
+            transition: all 0.2s;
+        }
+
+        .source-links a:hover {
+            background: var(--color-ink);
+            color: white;
+            border-color: var(--color-ink);
+        }
+
+        /* Footer */
+        .page-footer {
+            margin-top: 64px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border-medium);
+            text-align: center;
+            font-size: 12px;
+            color: var(--color-ink-light);
+            letter-spacing: 1px;
+        }
+
+        .page-footer p {
+            margin: 4px 0;
+        }
+
+        /* Print Styles */
+        @media print {
+            body { background: white; }
+            .container { padding: 20px; }
+            .pain-card, .news-card, .workflow-card, .quote-card {
+                box-shadow: none;
+                border: 1px solid #ddd;
+                break-inside: avoid;
+            }
+            .mood-section {
+                break-inside: avoid;
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .container { padding: 24px 16px; }
+            .publication-title { font-size: 28px; letter-spacing: 4px; }
+            .mood-section { padding: 24px; }
+            .mood-word { font-size: 42px; }
+            .section-header { flex-wrap: wrap; }
+            .section-subtitle { margin-left: 0; margin-top: 4px; width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="masthead">
+            <div class="publication-title">外贸内参</div>
+            <div class="publication-subtitle">Waimao Intelligence Briefing</div>
+            <div class="issue-info">
+                <span>第 030 期</span>
+                <span>2026-04-14</span>
+                <span>雨果 · 邦阅 · 米课</span>
+            </div>
+        </header>
+
+        <section class="mood-section">
+            <div class="mood-label">今日情绪晴雨表</div>
+            <div class="mood-word">焦虑</div>
+            <p class="mood-reason">平台合规严查致店铺冻结频发，税务稽查案例曝光引发恐慌，AI 工具安全隐患加剧卖家对资产安全的焦虑。</p>
+            <div class="mood-sources">
+                参考：<span class="source-links"><a href="https://www.cifnews.com/article/184783" target="_blank" rel="noopener">→</a> · <a href="https://www.cifnews.com/article/185063" target="_blank" rel="noopener">→</a></span>
+            </div>
+        </section>
+
+        <section class="module">
+            <header class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">高频吐槽与痛点雷达</h2>
+                <span class="section-subtitle">产品灵感来源</span>
+            </header>
+            
+        <article class="pain-card">
+            <div class="card-meta">痛点 01</div>
+            <h3 class="pain-title">知识产权侵权风暴</h3>
+            <p class="pain-scene">上架前没查专利，突然收到侵权通知，链接下架资金冻结，半年白干。</p>
+            <div class="pain-product">
+                <strong>产品思考</strong><br>
+                AI 专利风险预扫描插件，上架前自动比对全球专利库。
+            </div>
+            <footer class="card-footer">
+                来源：<span class="source-links"><a href="https://www.cifnews.com/article/185067" target="_blank" rel="noopener">→</a> · <a href="https://www.cifnews.com/article/185019" target="_blank" rel="noopener">→</a></span>
+            </footer>
+        </article>
+        <article class="pain-card">
+            <div class="card-meta">痛点 02</div>
+            <h3 class="pain-title">平台政策与成本双压</h3>
+            <p class="pain-scene">FBA 又涨价，定价新规不让虚标划线价，利润薄如纸，广告还烧不动。</p>
+            <div class="pain-product">
+                <strong>产品思考</strong><br>
+                合规定价与利润测算工具，自动适配平台新规避免违规。
+            </div>
+            <footer class="card-footer">
+                来源：<span class="source-links"><a href="https://www.cifnews.com/article/184859" target="_blank" rel="noopener">→</a> · <a href="https://www.cifnews.com/article/184913" target="_blank" rel="noopener">→</a></span>
+            </footer>
+        </article>
+        <article class="pain-card">
+            <div class="card-meta">痛点 03</div>
+            <h3 class="pain-title">税务合规与资产暴露</h3>
+            <p class="pain-scene">私账收款被稽查，补税罚款好几千万，海外房产信息也要交换回国，睡不着觉。</p>
+            <div class="pain-product">
+                <strong>产品思考</strong><br>
+                跨境税务合规自查 SaaS，监控资金流与海外资产税务风险。
+            </div>
+            <footer class="card-footer">
+                来源：<span class="source-links"><a href="https://www.cifnews.com/article/184783" target="_blank" rel="noopener">→</a> · <a href="https://www.52by.com/article/215650" target="_blank" rel="noopener">→</a></span>
+            </footer>
+        </article>
+        </section>
+
+        <section class="module">
+            <header class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">今日行业地震带</h2>
+                <span class="section-subtitle">政策与风向</span>
+            </header>
+            
+        <article class="news-card">
+            <div class="news-header">
+                <span class="impact-tag tag-cost">成本上升</span>
+                <span class="news-date">2026-04-14</span>
+            </div>
+            <h3 class="news-title">
+                <a href="https://www.cifnews.com/article/184859" target="_blank" rel="noopener">亚马逊宣布欧美站 FBA 配送费涨价</a>
+            </h3>
+            <p class="news-interpretation">北美站点 FBA 配送费增加 3.5%，欧洲站点增加 1.5%，直接压缩卖家利润空间，需重新核算定价模型。</p>
+            <footer class="card-footer">
+                全文：<span class="source-links"><a href="https://www.cifnews.com/article/184859" target="_blank" rel="noopener">→</a></span>
+            </footer>
+        </article>
+        <article class="news-card">
+            <div class="news-header">
+                <span class="impact-tag tag-cost">成本上升</span>
+                <span class="news-date">2026-04-14</span>
+            </div>
+            <h3 class="news-title">
+                <a href="https://www.cifnews.com/article/184783" target="_blank" rel="noopener">深圳 3C 大卖私账收款偷税被抓</a>
+            </h3>
+            <p class="news-interpretation">税务局查处隐匿 1.2 亿收入案件，追缴税款并罚款 2800 多万，警示私账收款风险，合规成本上升。</p>
+            <footer class="card-footer">
+                全文：<span class="source-links"><a href="https://www.cifnews.com/article/184783" target="_blank" rel="noopener">→</a></span>
+            </footer>
+        </article>
+        </section>
+
+        <section class="module">
+            <header class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">搞钱与成单拆解</h2>
+                <span class="section-subtitle">工作流洞察</span>
+            </header>
+            
+        <article class="workflow-card">
+            <div class="card-meta">案例 01</div>
+            <h3 class="workflow-title">乐器创业者低成本快速建独立站指南</h3>
+            <p class="workflow-detail">7 天快速上线流程，聚焦内容营销与垂直社群引流，避免高额广告投入，适合预算有限的初创品牌。</p>
+            <div class="workflow-tools">
+                <span class="tools-label">工具</span>
+                Ueeshop, Shopify, TikTok, Facebook Groups
+            </div>
+            <footer class="card-footer">
+                来源：<span class="source-links"><a href="https://www.52by.com/article/215529" target="_blank" rel="noopener">→</a></span>
+            </footer>
+        </article>
+        <article class="workflow-card">
+            <div class="card-meta">案例 02</div>
+            <h3 class="workflow-title">亚马逊 VC 底层招商逻辑揭秘</h3>
+            <p class="workflow-detail">VM 经理关注单类目 GMV、独立站运营能力及多渠道供给资质，而非单纯总销售额，需专注深耕核心品类。</p>
+            <div class="workflow-tools">
+                <span class="tools-label">工具</span>
+                Independent site, Multi-channel management
+            </div>
+            <footer class="card-footer">
+                来源：<span class="source-links"><a href="https://www.cifnews.com/article/185012" target="_blank" rel="noopener">→</a></span>
+            </footer>
+        </article>
+        </section>
+
+        <section class="module">
+            <header class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">原汁原味的呐喊</h2>
+                <span class="section-subtitle">真实声音</span>
+            </header>
+            <div class="quotes-grid">
+                
+        <article class="quote-card" style="transform: rotate(1deg);">
+            <blockquote class="quote-text">我们特意找的是平台自己推荐的服务商，检测流程、报告规范都按要求来做，现在突然说不合格，商品卖不了，检测费也全打了水漂。</blockquote>
+            <footer class="quote-footer">
+                <span class="quote-source-label">雨果网</span>
+                <span class="source-links"><a href="https://www.cifnews.com/article/184939" target="_blank" rel="noopener">→</a></span>
+            </footer>
+        </article>
+        <article class="quote-card" style="transform: rotate(-0.5deg);">
+            <blockquote class="quote-text">世界蠢得不可思议，我也是。</blockquote>
+            <footer class="quote-footer">
+                <span class="quote-source-label">雨果网</span>
+                <span class="source-links"><a href="https://www.cifnews.com/article/185034" target="_blank" rel="noopener">→</a></span>
+            </footer>
+        </article>
+        <article class="quote-card" style="transform: rotate(0.5deg);">
+            <blockquote class="quote-text">花 50 元找人远程安装 OpenClaw，结果安装当天，店铺后台就出现异常登录记录，绑定的信用卡被莫名刷走近万元。</blockquote>
+            <footer class="quote-footer">
+                <span class="quote-source-label">雨果网</span>
+                <span class="source-links"><a href="https://www.cifnews.com/article/184088" target="_blank" rel="noopener">→</a></span>
+            </footer>
+        </article>
+            </div>
+        </section>
+
+        <footer class="page-footer">
+            <p>数据已存储至本地 Markdown 素材库</p>
+            <p>同理心是做好产品的第一步</p>
+        </footer>
+    </div>
+</body>
+</html>
