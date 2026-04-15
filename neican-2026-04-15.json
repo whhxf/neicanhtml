@@ -1,0 +1,104 @@
+{
+  "overall_mood": {
+    "word": "焦虑",
+    "reason": "版权维权风暴频发，AI 工具安全隐患引发担忧，叠加物流查验与合规新政，外贸人普遍面临高压与不确定性。",
+    "source_urls": [
+      "https://ask.imiker.com/question/948322",
+      "https://www.cifnews.com/article/184088"
+    ]
+  },
+  "top_3_pain_points": [
+    {
+      "name": "AI 工具安全信任危机",
+      "scene": "听说 OpenClaw 能自动化干活，但怕 API Key 泄露导致店铺后台被登、信用卡被盗刷，不敢用又怕被淘汰。",
+      "product_idea": "本地化部署的 AI 自动化助手，内置数据隔离沙箱，无需云端传输即可执行任务。",
+      "source_urls": [
+        "https://www.cifnews.com/article/184088",
+        "https://www.52by.com/article/215798"
+      ]
+    },
+    {
+      "name": "版权侵权冻结潮",
+      "scene": "上架前没查清楚，突然收到TRO 邮件，店铺资金被冻结，连累整个账号，不知道哪张图踩了雷。",
+      "product_idea": "Listing 图片与描述实时版权扫描插件，对接全球专利数据库，上架前自动预警风险。",
+      "source_urls": [
+        "https://www.cifnews.com/article/185063",
+        "https://www.52by.com/article/215815"
+      ]
+    },
+    {
+      "name": "合伙运营信任崩塌",
+      "scene": "出资当甩手掌柜，结果运营黑盒操作，广告费烧光没利润，想止损才发现连后台密码都改不了。",
+      "product_idea": "外贸合伙透明化协作系统，实时同步广告花费与库存数据，设置资金变动自动通知。",
+      "source_urls": [
+        "https://www.52by.com/article/215728",
+        "https://ask.imiker.com/question/948322"
+      ]
+    }
+  ],
+  "core_news_impact": [
+    {
+      "title": "美国对 13 家中企发起 337 调查",
+      "impact_type": "cost",
+      "interpretation": "TCL、海信等智能显示企业被调查，跨境卖家需警惕供应链合规风险，可能面临排除令导致断供或法律成本激增。",
+      "source_urls": [
+        "https://www.cifnews.com/article/185017"
+      ]
+    },
+    {
+      "title": "亚马逊欧洲站 FBA 移除费计费调整",
+      "impact_type": "cost",
+      "interpretation": "5 月 1 日起改为单件实时扣费，资金流出节奏变快，账户需维持更充足余额，财务对账复杂度上升。",
+      "source_urls": [
+        "https://www.cifnews.com/article/185017"
+      ]
+    }
+  ],
+  "workflow_insights": [
+    {
+      "title": "OpenClaw 本地部署自动化",
+      "detail": "使用 Claw 大龙虾本地部署工具，三步完成 AI 环境搭建，本地处理敏感数据，自动整理文件、写周报，避免云端泄露风险。",
+      "tools": [
+        "OpenClaw",
+        "Claw 大龙虾本地部署大师"
+      ],
+      "source_urls": [
+        "https://www.52by.com/article/215798"
+      ]
+    },
+    {
+      "title": "TikTok 静态住宅 IP 养号",
+      "detail": "搭建独立运营空间，使用原生住宅静态 IP 避免账号关联，模拟真实用户行为轨迹，提升新号播放量与稳定性。",
+      "tools": [
+        "OSDWAN",
+        "静态住宅 IP"
+      ],
+      "source_urls": [
+        "https://www.52by.com/article/215791"
+      ]
+    }
+  ],
+  "raw_quotes": [
+    {
+      "text": "两天一个柜 每天都在接单下单中过  忙得像陀螺  还兼顾整理样板 协助财务和工厂沟通开票打款等等事宜 有点想爆炸了我",
+      "source_label": "米课圈 @用户 948322",
+      "source_urls": [
+        "https://ask.imiker.com/question/948322"
+      ]
+    },
+    {
+      "text": "亏麻了。你不知道和你合伙的是人是鬼。",
+      "source_label": "邦阅网",
+      "source_urls": [
+        "https://www.52by.com/article/215728"
+      ]
+    },
+    {
+      "text": "最近不想做外贸的情绪达到了极点，怎么调整，不想出差，不想永远订单不够，不想开会就被骂",
+      "source_label": "米课圈 @用户 948273",
+      "source_urls": [
+        "https://ask.imiker.com/question/948273"
+      ]
+    }
+  ]
+}

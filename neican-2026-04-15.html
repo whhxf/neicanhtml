@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>外贸内参 · 2026-04-15</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-bg: #faf9f7;
+            --color-paper: #ffffff;
+            --color-ink: #1a1a2e;
+            --color-ink-light: #5d6d7e;
+            --color-accent: #d4a373;
+            --color-accent-dark: #b8935f;
+            --color-pain: #c0392b;
+            --color-news: #5d6d7e;
+            --color-workflow: #2c3e50;
+            --color-quote: #f4f1ea;
+            --border-light: #e8e4de;
+            --border-medium: #d4cfc7;
+            --shadow-subtle: 0 1px 3px rgba(0,0,0,0.04);
+            --shadow-card: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Noto Serif SC', 'Songti SC', Georgia, serif;
+            line-height: 1.75;
+            color: var(--color-ink);
+            background: var(--color-bg);
+            font-size: 15px;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+
+        /* Header - 报纸头风格 */
+        .masthead {
+            text-align: center;
+            padding-bottom: 32px;
+            border-bottom: 3px double var(--color-ink);
+            margin-bottom: 48px;
+        }
+
+        .masthead::before {
+            content: '';
+            display: block;
+            height: 4px;
+            background: linear-gradient(90deg, var(--color-ink) 0%, var(--color-accent) 50%, var(--color-ink) 100%);
+            margin: -60px -24px 40px -24px;
+        }
+
+        .publication-title {
+            font-family: 'Playfair Display', 'Noto Serif SC', serif;
+            font-size: 42px;
+            font-weight: 700;
+            letter-spacing: 8px;
+            color: var(--color-ink);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+
+        .publication-subtitle {
+            font-size: 12px;
+            color: var(--color-ink-light);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+
+        .issue-info {
+            font-size: 13px;
+            color: var(--color-ink-light);
+            border-top: 1px solid var(--border-light);
+            border-bottom: 1px solid var(--border-light);
+            padding: 8px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Mood Section - 大字报风格 */
+        .mood-section {
+            margin-bottom: 56px;
+            background: var(--color-ink);
+            color: white;
+            padding: 40px;
+            position: relative;
+        }
+
+        .mood-section::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 6px;
+            background: #c0392b;
+        }
+
+        .mood-label {
+            font-size: 11px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            opacity: 0.7;
+            margin-bottom: 16px;
+        }
+
+        .mood-word {
+            font-family: 'Playfair Display', serif;
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 20px;
+            color: #c0392b;
+        }
+
+        .mood-reason {
+            font-size: 16px;
+            line-height: 1.6;
+            opacity: 0.9;
+            max-width: 90%;
+        }
+
+        .mood-sources {
+            margin-top: 24px;
+            font-size: 12px;
+            opacity: 0.6;
+        }
+
+        .mood-sources a {
+            color: white;
+            text-decoration: none;
+            border-bottom: 1px dotted rgba(255,255,255,0.4);
+            margin-left: 8px;
+        }
+
+        .mood-sources a:hover {
+            border-bottom-color: white;
+        }
+
+        /* Section Headers */
+        .section-header {
+            display: flex;
+            align-items: baseline;
+            margin-bottom: 24px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--color-ink);
+        }
+
+        .section-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--color-accent);
+            margin-right: 12px;
+            line-height: 1;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .section-subtitle {
+            font-size: 12px;
+            color: var(--color-ink-light);
+            margin-left: auto;
+            font-weight: 400;
+        }
+
+        /* Cards */
+        .pain-card, .news-card, .workflow-card {
+            background: var(--color-paper);
+            padding: 24px;
+            margin-bottom: 16px;
+            box-shadow: var(--shadow-subtle);
+            border: 1px solid var(--border-light);
+            transition: all 0.2s ease;
+        }
+
+        .pain-card:hover, .news-card:hover, .workflow-card:hover {
+            box-shadow: var(--shadow-card);
+            transform: translateY(-1px);
+        }
+
+        .pain-card {
+            border-left: 4px solid var(--color-pain);
+        }
+
+        .card-meta {
+            font-size: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--color-ink-light);
+            margin-bottom: 8px;
+        }
+
+        .pain-title, .news-title, .workflow-title {
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+
+        .pain-title {
+            color: var(--color-pain);
+        }
+
+        .pain-scene {
+            color: var(--color-ink);
+            margin-bottom: 16px;
+            line-height: 1.7;
+        }
+
+        .pain-product {
+            background: var(--color-bg);
+            padding: 16px;
+            font-size: 14px;
+            color: var(--color-ink-light);
+            border-left: 2px solid var(--color-accent);
+        }
+
+        .pain-product strong {
+            color: var(--color-accent-dark);
+            font-weight: 600;
+        }
+
+        /* News Cards */
+        .news-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .impact-tag {
+            font-size: 10px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding: 4px 8px;
+            border: 1px solid;
+        }
+
+        .tag-cost { color: var(--color-pain); border-color: var(--color-pain); }
+        .tag-time { color: var(--color-news); border-color: var(--color-news); }
+        .tag-opportunity { color: #27ae60; border-color: #27ae60; }
+
+        .news-date {
+            font-size: 11px;
+            color: var(--color-ink-light);
+        }
+
+        .news-title a {
+            color: var(--color-ink);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        .news-title a:hover {
+            border-bottom-color: var(--color-ink);
+        }
+
+        .news-interpretation {
+            color: var(--color-ink-light);
+            font-size: 14px;
+            line-height: 1.6;
+            margin-top: 8px;
+        }
+
+        /* Workflow */
+        .workflow-card {
+            border-left: 4px solid var(--color-workflow);
+        }
+
+        .workflow-title {
+            color: var(--color-workflow);
+        }
+
+        .workflow-detail {
+            color: var(--color-ink);
+            margin-bottom: 12px;
+            line-height: 1.7;
+        }
+
+        .workflow-tools {
+            font-size: 13px;
+            color: var(--color-ink-light);
+        }
+
+        .tools-label {
+            font-weight: 600;
+            color: var(--color-accent-dark);
+            margin-right: 8px;
+        }
+
+        /* Quote Cards */
+        .quotes-grid {
+            display: grid;
+            gap: 20px;
+        }
+
+        .quote-card {
+            background: var(--color-quote);
+            padding: 24px;
+            border: 1px solid var(--border-medium);
+            box-shadow: 2px 2px 0 rgba(0,0,0,0.06);
+            position: relative;
+        }
+
+        .quote-card::before {
+            content: '"';
+            position: absolute;
+            top: 8px;
+            left: 16px;
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            color: var(--color-accent);
+            opacity: 0.4;
+            line-height: 1;
+        }
+
+        .quote-text {
+            font-size: 15px;
+            line-height: 1.8;
+            color: var(--color-ink);
+            position: relative;
+            z-index: 1;
+            margin-left: 8px;
+        }
+
+        .quote-footer {
+            margin-top: 16px;
+            padding-top: 12px;
+            border-top: 1px dashed var(--border-medium);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+            color: var(--color-ink-light);
+        }
+
+        .quote-source-label {
+            font-weight: 600;
+        }
+
+        /* Card Footer */
+        .card-footer {
+            margin-top: 16px;
+            padding-top: 12px;
+            border-top: 1px solid var(--border-light);
+            font-size: 11px;
+            color: var(--color-ink-light);
+            letter-spacing: 0.5px;
+        }
+
+        .source-links a {
+            color: var(--color-ink-light);
+            text-decoration: none;
+            margin-left: 4px;
+            padding: 2px 6px;
+            border: 1px solid var(--border-medium);
+            transition: all 0.2s;
+        }
+
+        .source-links a:hover {
+            background: var(--color-ink);
+            color: white;
+            border-color: var(--color-ink);
+        }
+
+        /* Footer */
+        .page-footer {
+            margin-top: 64px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border-medium);
+            text-align: center;
+            font-size: 12px;
+            color: var(--color-ink-light);
+            letter-spacing: 1px;
+        }
+
+        .page-footer p {
+            margin: 4px 0;
+        }
+
+        /* Print Styles */
+        @media print {
+            body { background: white; }
+            .container { padding: 20px; }
+            .pain-card, .news-card, .workflow-card, .quote-card {
+                box-shadow: none;
+                border: 1px solid #ddd;
+                break-inside: avoid;
+            }
+            .mood-section {
+                break-inside: avoid;
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .container { padding: 24px 16px; }
+            .publication-title { font-size: 28px; letter-spacing: 4px; }
+            .mood-section { padding: 24px; }
+            .mood-word { font-size: 42px; }
+            .section-header { flex-wrap: wrap; }
+            .section-subtitle { margin-left: 0; margin-top: 4px; width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="masthead">
+            <div class="publication-title">外贸内参</div>
+            <div class="publication-subtitle">Waimao Intelligence Briefing</div>
+            <div class="issue-info">
+                <span>第 031 期</span>
+                <span>2026-04-15</span>
+                <span>雨果 · 邦阅 · 米课</span>
+            </div>
+        </header>
+
+        <section class="mood-section">
+            <div class="mood-label">今日情绪晴雨表</div>
+            <div class="mood-word">焦虑</div>
+            <p class="mood-reason">版权维权风暴频发，AI 工具安全隐患引发担忧，叠加物流查验与合规新政，外贸人普遍面临高压与不确定性。</p>
+            <div class="mood-sources">
+                参考：<span class="source-links"><a href="https://ask.imiker.com/question/948322" target="_blank" rel="noopener">→</a> · <a href="https://www.cifnews.com/article/184088" target="_blank" rel="noopener">→</a></span>
+            </div>
+        </section>
+
+        <section class="module">
+            <header class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">高频吐槽与痛点雷达</h2>
+                <span class="section-subtitle">产品灵感来源</span>
+            </header>
+            
+        <article class="pain-card">
+            <div class="card-meta">痛点 01</div>
+            <h3 class="pain-title">AI 工具安全信任危机</h3>
+            <p class="pain-scene">听说 OpenClaw 能自动化干活，但怕 API Key 泄露导致店铺后台被登、信用卡被盗刷，不敢用又怕被淘汰。</p>
+            <div class="pain-product">
+                <strong>产品思考</strong><br>
+                本地化部署的 AI 自动化助手，内置数据隔离沙箱，无需云端传输即可执行任务。
+            </div>
+            <footer class="card-footer">
+                来源：<span class="source-links"><a href="https://www.cifnews.com/article/184088" target="_blank" rel="noopener">→</a> · <a href="https://www.52by.com/article/215798" target="_blank" rel="noopener">→</a></span>
+            </footer>
+        </article>
+        <article class="pain-card">
+            <div class="card-meta">痛点 02</div>
+            <h3 class="pain-title">版权侵权冻结潮</h3>
+            <p class="pain-scene">上架前没查清楚，突然收到TRO 邮件，店铺资金被冻结，连累整个账号，不知道哪张图踩了雷。</p>
+            <div class="pain-product">
+                <strong>产品思考</strong><br>
+                Listing 图片与描述实时版权扫描插件，对接全球专利数据库，上架前自动预警风险。
+            </div>
+            <footer class="card-footer">
+                来源：<span class="source-links"><a href="https://www.cifnews.com/article/185063" target="_blank" rel="noopener">→</a> · <a href="https://www.52by.com/article/215815" target="_blank" rel="noopener">→</a></span>
+            </footer>
+        </article>
+        <article class="pain-card">
+            <div class="card-meta">痛点 03</div>
+            <h3 class="pain-title">合伙运营信任崩塌</h3>
+            <p class="pain-scene">出资当甩手掌柜，结果运营黑盒操作，广告费烧光没利润，想止损才发现连后台密码都改不了。</p>
+            <div class="pain-product">
+                <strong>产品思考</strong><br>
+                外贸合伙透明化协作系统，实时同步广告花费与库存数据，设置资金变动自动通知。
+            </div>
+            <footer class="card-footer">
+                来源：<span class="source-links"><a href="https://www.52by.com/article/215728" target="_blank" rel="noopener">→</a> · <a href="https://ask.imiker.com/question/948322" target="_blank" rel="noopener">→</a></span>
+            </footer>
+        </article>
+        </section>
+
+        <section class="module">
+            <header class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">今日行业地震带</h2>
+                <span class="section-subtitle">政策与风向</span>
+            </header>
+            
+        <article class="news-card">
+            <div class="news-header">
+                <span class="impact-tag tag-cost">成本上升</span>
+                <span class="news-date">2026-04-15</span>
+            </div>
+            <h3 class="news-title">
+                <a href="https://www.cifnews.com/article/185017" target="_blank" rel="noopener">美国对 13 家中企发起 337 调查</a>
+            </h3>
+            <p class="news-interpretation">TCL、海信等智能显示企业被调查，跨境卖家需警惕供应链合规风险，可能面临排除令导致断供或法律成本激增。</p>
+            <footer class="card-footer">
+                全文：<span class="source-links"><a href="https://www.cifnews.com/article/185017" target="_blank" rel="noopener">→</a></span>
+            </footer>
+        </article>
+        <article class="news-card">
+            <div class="news-header">
+                <span class="impact-tag tag-cost">成本上升</span>
+                <span class="news-date">2026-04-15</span>
+            </div>
+            <h3 class="news-title">
+                <a href="https://www.cifnews.com/article/185017" target="_blank" rel="noopener">亚马逊欧洲站 FBA 移除费计费调整</a>
+            </h3>
+            <p class="news-interpretation">5 月 1 日起改为单件实时扣费，资金流出节奏变快，账户需维持更充足余额，财务对账复杂度上升。</p>
+            <footer class="card-footer">
+                全文：<span class="source-links"><a href="https://www.cifnews.com/article/185017" target="_blank" rel="noopener">→</a></span>
+            </footer>
+        </article>
+        </section>
+
+        <section class="module">
+            <header class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">搞钱与成单拆解</h2>
+                <span class="section-subtitle">工作流洞察</span>
+            </header>
+            
+        <article class="workflow-card">
+            <div class="card-meta">案例 01</div>
+            <h3 class="workflow-title">OpenClaw 本地部署自动化</h3>
+            <p class="workflow-detail">使用 Claw 大龙虾本地部署工具，三步完成 AI 环境搭建，本地处理敏感数据，自动整理文件、写周报，避免云端泄露风险。</p>
+            <div class="workflow-tools">
+                <span class="tools-label">工具</span>
+                ['OpenClaw', 'Claw 大龙虾本地部署大师']
+            </div>
+            <footer class="card-footer">
+                来源：<span class="source-links"><a href="https://www.52by.com/article/215798" target="_blank" rel="noopener">→</a></span>
+            </footer>
+        </article>
+        <article class="workflow-card">
+            <div class="card-meta">案例 02</div>
+            <h3 class="workflow-title">TikTok 静态住宅 IP 养号</h3>
+            <p class="workflow-detail">搭建独立运营空间，使用原生住宅静态 IP 避免账号关联，模拟真实用户行为轨迹，提升新号播放量与稳定性。</p>
+            <div class="workflow-tools">
+                <span class="tools-label">工具</span>
+                ['OSDWAN', '静态住宅 IP']
+            </div>
+            <footer class="card-footer">
+                来源：<span class="source-links"><a href="https://www.52by.com/article/215791" target="_blank" rel="noopener">→</a></span>
+            </footer>
+        </article>
+        </section>
+
+        <section class="module">
+            <header class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">原汁原味的呐喊</h2>
+                <span class="section-subtitle">真实声音</span>
+            </header>
+            <div class="quotes-grid">
+                
+        <article class="quote-card" style="transform: rotate(1deg);">
+            <blockquote class="quote-text">两天一个柜 每天都在接单下单中过  忙得像陀螺  还兼顾整理样板 协助财务和工厂沟通开票打款等等事宜 有点想爆炸了我</blockquote>
+            <footer class="quote-footer">
+                <span class="quote-source-label">米课圈 @用户 948322</span>
+                <span class="source-links"><a href="https://ask.imiker.com/question/948322" target="_blank" rel="noopener">→</a></span>
+            </footer>
+        </article>
+        <article class="quote-card" style="transform: rotate(-0.5deg);">
+            <blockquote class="quote-text">亏麻了。你不知道和你合伙的是人是鬼。</blockquote>
+            <footer class="quote-footer">
+                <span class="quote-source-label">邦阅网</span>
+                <span class="source-links"><a href="https://www.52by.com/article/215728" target="_blank" rel="noopener">→</a></span>
+            </footer>
+        </article>
+        <article class="quote-card" style="transform: rotate(0.5deg);">
+            <blockquote class="quote-text">最近不想做外贸的情绪达到了极点，怎么调整，不想出差，不想永远订单不够，不想开会就被骂</blockquote>
+            <footer class="quote-footer">
+                <span class="quote-source-label">米课圈 @用户 948273</span>
+                <span class="source-links"><a href="https://ask.imiker.com/question/948273" target="_blank" rel="noopener">→</a></span>
+            </footer>
+        </article>
+            </div>
+        </section>
+
+        <footer class="page-footer">
+            <p>数据已存储至本地 Markdown 素材库</p>
+            <p>同理心是做好产品的第一步</p>
+        </footer>
+    </div>
+</body>
+</html>
